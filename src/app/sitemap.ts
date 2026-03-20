@@ -19,6 +19,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         '/areas/western-wyoming',
         '/contact',
         '/faq',
+        '/privacy-policy',
         '/process',
         '/services',
         '/services/concrete-services',

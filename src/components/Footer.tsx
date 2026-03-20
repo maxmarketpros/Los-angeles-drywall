@@ -194,13 +194,13 @@ export default function Footer() {
                     </p>
                     <div className="flex gap-8">
                         <a
-                            href="/privacy"
+                            href="/privacy-policy"
                             className="text-sm text-neutral-500 hover:text-[var(--color-primary-light)] transition-colors"
                         >
                             Privacy Policy
                         </a>
                         <a
-                            href="/sitemap"
+                            href="/sitemap.xml"
                             className="text-sm text-neutral-500 hover:text-[var(--color-primary-light)] transition-colors"
                         >
                             Sitemap
