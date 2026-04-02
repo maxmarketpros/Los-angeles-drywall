@@ -82,6 +82,7 @@ export default function BearLakeArea() {
                     src="/images/areas/bear-lake-region-utah-idaho/hero.webp"
                     alt="Massive custom luxury cabin built in Bear Lake Region"
                     fill
+                    sizes="100vw"
                     className="object-cover object-center"
                     priority
                 />
@@ -137,6 +138,7 @@ export default function BearLakeArea() {
                                     src="/images/areas/bear-lake-region-utah-idaho/local-relevance.webp"
                                     alt="Expertly landscaped luxury cabin built in Bear Lake terrain"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 40vw"
                                     className="object-cover"
                                 />
                             </div>
@@ -159,6 +161,7 @@ export default function BearLakeArea() {
                                     src="/images/areas/bear-lake-region-utah-idaho/synergy.webp"
                                     alt="The pinnacle of luxury home building in Bear Lake"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 40vw"
                                     className="object-cover"
                                 />
                                 <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-[var(--color-neutral-900)]/90 via-[var(--color-neutral-900)]/40 to-transparent p-8">
@@ -269,6 +272,7 @@ export default function BearLakeArea() {
                                     src="/images/areas/bear-lake-region-utah-idaho/structural.webp"
                                     alt="Engineered structural timber frame for a Bear Lake custom cabin"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 40vw"
                                     className="object-cover"
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-[#020617]/90 via-transparent to-transparent"></div>

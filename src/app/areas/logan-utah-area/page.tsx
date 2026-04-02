@@ -82,6 +82,7 @@ export default function LoganArea() {
                     src="/images/areas/logan-utah-area/hero.webp"
                     alt="Massive custom luxury home built in Logan Utah"
                     fill
+                    sizes="100vw"
                     className="object-cover object-center"
                     priority
                 />
@@ -137,6 +138,7 @@ export default function LoganArea() {
                                     src="/images/areas/logan-utah-area/local-relevance.webp"
                                     alt="Expertly landscaped luxury home built in the Logan foothills"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 40vw"
                                     className="object-cover"
                                 />
                             </div>
@@ -159,6 +161,7 @@ export default function LoganArea() {
                                     src="/images/areas/logan-utah-area/synergy.webp"
                                     alt="The pinnacle of luxury home building in Logan UT"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 40vw"
                                     className="object-cover"
                                 />
                                 <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-[var(--color-neutral-900)]/90 via-[var(--color-neutral-900)]/40 to-transparent p-8">
@@ -269,6 +272,7 @@ export default function LoganArea() {
                                     src="/images/areas/logan-utah-area/structural.webp"
                                     alt="Engineered structural retaining walls blending into Logan landscaping"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 40vw"
                                     className="object-cover"
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-[#020617]/90 via-transparent to-transparent"></div>

@@ -74,6 +74,7 @@ export default function ParadiseCustomHomeBuilder() {
                     src="/images/portfolio/custom-home-20230710.webp"
                     alt="Premium custom home in Paradise, UT built by HRF Customs"
                     fill
+                    sizes="100vw"
                     className="object-cover object-center"
                     priority
                 />
@@ -129,6 +130,7 @@ export default function ParadiseCustomHomeBuilder() {
                                     src="/images/services/paradise/finished-exterior-paradise.webp"
                                     alt="Fully finished luxury custom home built by HRF Customs in Paradise, Utah"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 40vw"
                                     className="object-cover"
                                 />
                             </div>
@@ -229,6 +231,7 @@ export default function ParadiseCustomHomeBuilder() {
                                     src="/images/framing/framing-02.webp"
                                     alt="Advanced structural framing for a custom home in Paradise, Utah"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 50vw"
                                     className="object-cover"
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-[#020617]/80 to-transparent"></div>
@@ -296,6 +299,7 @@ export default function ParadiseCustomHomeBuilder() {
                                     src="/images/portfolio/premium-build-01.webp"
                                     alt="Architectural execution on a custom home in Northern Utah"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 50vw"
                                     className="object-cover"
                                 />
                             </div>

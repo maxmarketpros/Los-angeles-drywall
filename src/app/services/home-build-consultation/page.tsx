@@ -75,6 +75,7 @@ export default function HomeBuildConsultation() {
                     src="/images/services/home-build-consultation/hero.webp"
                     alt="Pristine finished luxury estate representing the ultimate consulting goal"
                     fill
+                    sizes="100vw"
                     className="object-cover object-center"
                     priority
                 />
@@ -130,6 +131,7 @@ export default function HomeBuildConsultation() {
                                     src="/images/services/home-build-consultation/local-relevance.webp"
                                     alt="Expert consultation on massive luxury estate build"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 40vw"
                                     className="object-cover"
                                 />
                             </div>
@@ -151,6 +153,7 @@ export default function HomeBuildConsultation() {
                                         src="/images/services/home-build-consultation/synergy.webp"
                                         alt="Stunning architectural synergy achieved through planning"
                                         fill
+                                        sizes="(max-width: 1024px) 100vw, 50vw"
                                         className="object-cover"
                                     />
                                 </div>
@@ -159,6 +162,7 @@ export default function HomeBuildConsultation() {
                                         src="/images/portfolio/custom-home-20230710.webp"
                                         alt="Flawless estate resulting from expert early-stage consultation"
                                         fill
+                                        sizes="(max-width: 1024px) 100vw, 50vw"
                                         className="object-cover"
                                     />
                                 </div>
@@ -266,6 +270,7 @@ export default function HomeBuildConsultation() {
                                     src="/images/services/home-build-consultation/structural.webp"
                                     alt="Luxury mountain estate aggressively integrated into steep terrain"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 50vw"
                                     className="object-cover"
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-[#020617]/90 via-transparent to-transparent"></div>

@@ -76,6 +76,7 @@ export default function ConcreteServices() {
                     src="/images/services/concrete-services/hero.webp"
                     alt="Massive structural concrete foundation pour by HRF Customs"
                     fill
+                    sizes="100vw"
                     className="object-cover object-center"
                     priority
                 />
@@ -131,6 +132,7 @@ export default function ConcreteServices() {
                                     src="/images/services/concrete-services/local-relevance.webp"
                                     alt="Complex concrete formwork and rebar structure in Utah"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 40vw"
                                     className="object-cover"
                                 />
                             </div>
@@ -152,6 +154,7 @@ export default function ConcreteServices() {
                                         src="/images/services/concrete-services/synergy.webp"
                                         alt="Cured structural retaining walls on steep lot"
                                         fill
+                                        sizes="(max-width: 1024px) 100vw, 50vw"
                                         className="object-cover"
                                     />
                                 </div>
@@ -160,6 +163,7 @@ export default function ConcreteServices() {
                                         src="/images/portfolio/custom-home-20230710.webp"
                                         alt="Finished exterior resting on solid HRF Customs foundation"
                                         fill
+                                        sizes="(max-width: 1024px) 100vw, 50vw"
                                         className="object-cover"
                                     />
                                 </div>
@@ -267,6 +271,7 @@ export default function ConcreteServices() {
                                     src="/images/services/concrete-services/structural.webp"
                                     alt="Deep structural foundation and waterproofing execution in Utah"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 50vw"
                                     className="object-cover"
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-[#020617]/90 via-transparent to-transparent"></div>

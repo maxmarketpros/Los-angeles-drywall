@@ -86,6 +86,7 @@ export default function ContactCTA() {
                             </h3>
                             <div className="bg-[var(--color-neutral-50)] border border-[var(--color-neutral-200)] p-0 sm:p-2 lg:p-4 w-full flex-grow min-h-[850px] relative rounded-md overflow-hidden">
                                 <iframe
+                                    loading="lazy"
                                     src="https://api.leadconnectorhq.com/widget/form/EBindBDKViBbdpeH85TF"
                                     style={{ width: "100%", height: "100%", border: "none" }}
                                     id="inline-EBindBDKViBbdpeH85TF"

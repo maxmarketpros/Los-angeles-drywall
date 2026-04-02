@@ -82,6 +82,7 @@ export default function JacksonHoleArea() {
                     src="/images/areas/jackson-hole-region-wyoming/hero.webp"
                     alt="Massive custom luxury mountain home built in Jackson Hole Wyoming"
                     fill
+                    sizes="100vw"
                     className="object-cover object-center"
                     priority
                 />
@@ -137,6 +138,7 @@ export default function JacksonHoleArea() {
                                     src="/images/areas/jackson-hole-region-wyoming/local-relevance.webp"
                                     alt="Expertly framed luxury property in remote Jackson Wyoming"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 40vw"
                                     className="object-cover"
                                 />
                             </div>
@@ -159,6 +161,7 @@ export default function JacksonHoleArea() {
                                     src="/images/areas/jackson-hole-region-wyoming/synergy.webp"
                                     alt="High-end finishes for a Jackson Hole custom estate"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 40vw"
                                     className="object-cover"
                                 />
                                 <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-[var(--color-neutral-900)]/90 via-[var(--color-neutral-900)]/40 to-transparent p-8">
@@ -269,6 +272,7 @@ export default function JacksonHoleArea() {
                                     src="/images/areas/jackson-hole-region-wyoming/structural.webp"
                                     alt="Massive structural retaining walls built in Jackson Hole"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 40vw"
                                     className="object-cover"
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-[#020617]/90 via-transparent to-transparent"></div>

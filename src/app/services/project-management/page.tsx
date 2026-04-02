@@ -75,6 +75,7 @@ export default function ProjectManagement() {
                     src="/images/services/project-management/hero.webp"
                     alt="Complex internal rough-ins requiring elite project management"
                     fill
+                    sizes="100vw"
                     className="object-cover object-center"
                     priority
                 />
@@ -130,6 +131,7 @@ export default function ProjectManagement() {
                                     src="/images/services/project-management/local-relevance.webp"
                                     alt="Management reviewing massive trade execution on site"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 40vw"
                                     className="object-cover"
                                 />
                             </div>
@@ -151,6 +153,7 @@ export default function ProjectManagement() {
                                         src="/images/services/project-management/synergy.webp"
                                         alt="Intricate MEP coordination requiring extreme management"
                                         fill
+                                        sizes="(max-width: 1024px) 100vw, 50vw"
                                         className="object-cover"
                                     />
                                 </div>
@@ -159,6 +162,7 @@ export default function ProjectManagement() {
                                         src="/images/portfolio/custom-home-20230710.webp"
                                         alt="Flawless finished product representing exact budget execution"
                                         fill
+                                        sizes="(max-width: 1024px) 100vw, 50vw"
                                         className="object-cover"
                                     />
                                 </div>
@@ -266,6 +270,7 @@ export default function ProjectManagement() {
                                     src="/images/services/project-management/structural.webp"
                                     alt="Completed multi-layered luxury estate successfully managed"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 50vw"
                                     className="object-cover"
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-[#020617]/90 via-transparent to-transparent"></div>

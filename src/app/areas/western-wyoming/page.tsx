@@ -82,6 +82,7 @@ export default function WesternWyomingArea() {
                     src="/images/areas/western-wyoming/hero.webp"
                     alt="Immense structural timber frame home built in Western Wyoming"
                     fill
+                    sizes="100vw"
                     className="object-cover object-center"
                     priority
                 />
@@ -137,6 +138,7 @@ export default function WesternWyomingArea() {
                                     src="/images/areas/western-wyoming/local-relevance.webp"
                                     alt="Expertly framed luxury property in remote Western Wyoming"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 40vw"
                                     className="object-cover"
                                 />
                             </div>
@@ -159,6 +161,7 @@ export default function WesternWyomingArea() {
                                     src="/images/areas/western-wyoming/synergy.webp"
                                     alt="High-end finishes for a Western Wyoming custom estate"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 40vw"
                                     className="object-cover"
                                 />
                                 <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-[var(--color-neutral-900)]/90 via-[var(--color-neutral-900)]/40 to-transparent p-8">
@@ -269,6 +272,7 @@ export default function WesternWyomingArea() {
                                     src="/images/areas/western-wyoming/structural.webp"
                                     alt="Massive structural retaining walls built in Western Wyoming"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 40vw"
                                     className="object-cover"
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-[#020617]/90 via-transparent to-transparent"></div>

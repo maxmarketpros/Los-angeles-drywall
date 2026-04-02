@@ -76,6 +76,7 @@ export default function DesignBuildContractor() {
                     src="/images/services/design-build-contractor/hero.webp"
                     alt="Premium finished design build home by HRF Customs"
                     fill
+                    sizes="100vw"
                     className="object-cover object-center"
                     priority
                 />
@@ -131,6 +132,7 @@ export default function DesignBuildContractor() {
                                     src="/images/services/design-build-contractor/local-relevance.webp"
                                     alt="Experienced builder surveying a new custom home project"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 40vw"
                                     className="object-cover"
                                 />
                             </div>
@@ -152,6 +154,7 @@ export default function DesignBuildContractor() {
                                         src="/images/services/design-build-contractor/synergy.webp"
                                         alt="Complex luxury home under construction demonstrating trade synergy"
                                         fill
+                                        sizes="(max-width: 1024px) 100vw, 50vw"
                                         className="object-cover"
                                     />
                                 </div>
@@ -160,6 +163,7 @@ export default function DesignBuildContractor() {
                                         src="/images/portfolio/premium-build-02.webp"
                                         alt="Finished design build estate project"
                                         fill
+                                        sizes="(max-width: 1024px) 100vw, 50vw"
                                         className="object-cover"
                                     />
                                 </div>
@@ -267,6 +271,7 @@ export default function DesignBuildContractor() {
                                     src="/images/services/design-build-contractor/structural.webp"
                                     alt="Massive foundation and earthwork prepared by a design build contractor"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 50vw"
                                     className="object-cover"
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-[#020617]/90 via-transparent to-transparent"></div>

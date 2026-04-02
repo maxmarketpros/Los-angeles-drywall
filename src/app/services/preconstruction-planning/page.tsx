@@ -76,6 +76,7 @@ export default function PreconstructionPlanning() {
                     src="/images/services/preconstruction-planning/hero.webp"
                     alt="Digital architectural rendering and preconstruction planning"
                     fill
+                    sizes="100vw"
                     className="object-cover object-center"
                     priority
                 />
@@ -131,6 +132,7 @@ export default function PreconstructionPlanning() {
                                     src="/images/services/preconstruction-planning/local-relevance.webp"
                                     alt="Digital 3D modeling used for value engineering luxury homes"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 40vw"
                                     className="object-cover"
                                 />
                             </div>
@@ -152,6 +154,7 @@ export default function PreconstructionPlanning() {
                                         src="/images/services/preconstruction-planning/synergy.webp"
                                         alt="Project manager reviewing plans on job site"
                                         fill
+                                        sizes="(max-width: 1024px) 100vw, 50vw"
                                         className="object-cover"
                                     />
                                 </div>
@@ -160,6 +163,7 @@ export default function PreconstructionPlanning() {
                                         src="/images/portfolio/custom-home-20230710.webp"
                                         alt="Finished estate matching preconstruction plans"
                                         fill
+                                        sizes="(max-width: 1024px) 100vw, 50vw"
                                         className="object-cover"
                                     />
                                 </div>
@@ -267,6 +271,7 @@ export default function PreconstructionPlanning() {
                                     src="/images/services/preconstruction-planning/structural.webp"
                                     alt="Finished premium exterior resulting from flawless planning"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 50vw"
                                     className="object-cover"
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-[#020617]/90 via-transparent to-transparent"></div>

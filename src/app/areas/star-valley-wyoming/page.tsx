@@ -82,6 +82,7 @@ export default function StarValleyArea() {
                     src="/images/areas/star-valley-wyoming/hero.webp"
                     alt="Massive custom luxury home built in Star Valley Wyoming"
                     fill
+                    sizes="100vw"
                     className="object-cover object-center"
                     priority
                 />
@@ -137,6 +138,7 @@ export default function StarValleyArea() {
                                     src="/images/areas/star-valley-wyoming/local-relevance.webp"
                                     alt="Expertly framed luxury property in remote Star Valley"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 40vw"
                                     className="object-cover"
                                 />
                             </div>
@@ -159,6 +161,7 @@ export default function StarValleyArea() {
                                     src="/images/areas/star-valley-wyoming/synergy.webp"
                                     alt="High-end finishes for a Star Valley custom estate"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 40vw"
                                     className="object-cover"
                                 />
                                 <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-[var(--color-neutral-900)]/90 via-[var(--color-neutral-900)]/40 to-transparent p-8">
@@ -269,6 +272,7 @@ export default function StarValleyArea() {
                                     src="/images/areas/star-valley-wyoming/structural.webp"
                                     alt="Massive structural retaining walls built in Star Valley"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 40vw"
                                     className="object-cover"
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-[#020617]/90 via-transparent to-transparent"></div>

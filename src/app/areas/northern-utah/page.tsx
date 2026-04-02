@@ -84,6 +84,7 @@ export default function NorthernUtahArea() {
                     src="/images/areas/northern-utah/hero.webp"
                     alt="Massive custom home built in the rugged mountains of Northern Utah"
                     fill
+                    sizes="100vw"
                     className="object-cover object-center"
                     priority
                 />
@@ -139,6 +140,7 @@ export default function NorthernUtahArea() {
                                     src="/images/areas/northern-utah/local-relevance.webp"
                                     alt="Expertly landscaped luxury home built in Northern Utah terrain"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 40vw"
                                     className="object-cover"
                                 />
                             </div>
@@ -162,6 +164,7 @@ export default function NorthernUtahArea() {
                                     src="/images/areas/northern-utah/synergy.webp"
                                     alt="The pinnacle of luxury home building in Northern Utah"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 40vw"
                                     className="object-cover"
                                 />
                                 <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-[var(--color-neutral-900)]/90 via-[var(--color-neutral-900)]/40 to-transparent p-8">
@@ -272,6 +275,7 @@ export default function NorthernUtahArea() {
                                     src="/images/areas/northern-utah/structural.webp"
                                     alt="Engineered structural retaining walls blending into Northern Utah landscaping"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 40vw"
                                     className="object-cover"
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-[#020617]/90 via-transparent to-transparent"></div>

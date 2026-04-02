@@ -76,6 +76,7 @@ export default function GeneralContractor() {
                     src="/images/services/general-contractor/hero.webp"
                     alt="Massive custom home exterior being managed by HRF Customs general contracting"
                     fill
+                    sizes="100vw"
                     className="object-cover object-center"
                     priority
                 />
@@ -131,6 +132,7 @@ export default function GeneralContractor() {
                                     src="/images/services/general-contractor/local-relevance.webp"
                                     alt="Superintendent managing active custom home build site"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 40vw"
                                     className="object-cover"
                                 />
                             </div>
@@ -152,6 +154,7 @@ export default function GeneralContractor() {
                                         src="/images/services/general-contractor/synergy.webp"
                                         alt="Intricate interior rough-ins managed by GC"
                                         fill
+                                        sizes="(max-width: 1024px) 100vw, 50vw"
                                         className="object-cover"
                                     />
                                 </div>
@@ -160,6 +163,7 @@ export default function GeneralContractor() {
                                         src="/images/portfolio/custom-home-20230710.webp"
                                         alt="Completed pristine exterior of expertly managed build"
                                         fill
+                                        sizes="(max-width: 1024px) 100vw, 50vw"
                                         className="object-cover"
                                     />
                                 </div>
@@ -267,6 +271,7 @@ export default function GeneralContractor() {
                                     src="/images/services/general-contractor/structural.webp"
                                     alt="Massive concrete structural components managed by HRF Customs"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 50vw"
                                     className="object-cover"
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-[#020617]/90 via-transparent to-transparent"></div>

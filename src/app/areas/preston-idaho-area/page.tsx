@@ -82,6 +82,7 @@ export default function PrestonArea() {
                     src="/images/areas/preston-idaho-area/hero.webp"
                     alt="Massive acreage luxury estate built in Preston Idaho"
                     fill
+                    sizes="100vw"
                     className="object-cover object-center"
                     priority
                 />
@@ -137,6 +138,7 @@ export default function PrestonArea() {
                                     src="/images/areas/preston-idaho-area/local-relevance.webp"
                                     alt="Expertly landscaped luxury property in remote Preston Idaho"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 40vw"
                                     className="object-cover"
                                 />
                             </div>
@@ -159,6 +161,7 @@ export default function PrestonArea() {
                                     src="/images/areas/preston-idaho-area/synergy.webp"
                                     alt="High-end architectural finishes for a Preston custom build"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 40vw"
                                     className="object-cover"
                                 />
                                 <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-[var(--color-neutral-900)]/90 via-[var(--color-neutral-900)]/40 to-transparent p-8">
@@ -269,6 +272,7 @@ export default function PrestonArea() {
                                     src="/images/areas/preston-idaho-area/structural.webp"
                                     alt="Massive structural retaining walls built in Preston Idaho"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 40vw"
                                     className="object-cover"
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-[#020617]/90 via-transparent to-transparent"></div>

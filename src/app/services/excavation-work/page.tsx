@@ -76,6 +76,7 @@ export default function ExcavationWork() {
                     src="/images/services/excavation-work/hero.webp"
                     alt="Heavy excavation machinery cutting a mountain pad"
                     fill
+                    sizes="100vw"
                     className="object-cover object-center"
                     priority
                 />
@@ -131,6 +132,7 @@ export default function ExcavationWork() {
                                     src="/images/services/excavation-work/local-relevance.webp"
                                     alt="Deep foundation footprint cut into a mountainside"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 40vw"
                                     className="object-cover"
                                 />
                             </div>
@@ -152,6 +154,7 @@ export default function ExcavationWork() {
                                         src="/images/services/excavation-work/synergy.webp"
                                         alt="Heavy earthmoving equipment preparing a site"
                                         fill
+                                        sizes="(max-width: 1024px) 100vw, 50vw"
                                         className="object-cover"
                                     />
                                 </div>
@@ -160,6 +163,7 @@ export default function ExcavationWork() {
                                         src="/images/portfolio/custom-home-20230710.webp"
                                         alt="Finished exterior showing aggressive topographical adaptation"
                                         fill
+                                        sizes="(max-width: 1024px) 100vw, 50vw"
                                         className="object-cover"
                                     />
                                 </div>
@@ -267,6 +271,7 @@ export default function ExcavationWork() {
                                     src="/images/services/excavation-work/structural.webp"
                                     alt="Deep utility and foundation trenches dug by heavy machinery"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 50vw"
                                     className="object-cover"
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-[#020617]/90 via-transparent to-transparent"></div>

@@ -76,6 +76,7 @@ export default function FramingContractor() {
                     src="/images/services/framing-contractor/hero.webp"
                     alt="Massive custom home framing structure by HRF Customs"
                     fill
+                    sizes="100vw"
                     className="object-cover object-center"
                     priority
                 />
@@ -131,6 +132,7 @@ export default function FramingContractor() {
                                     src="/images/services/framing-contractor/local-relevance.webp"
                                     alt="Detailed framing joints executed by HRF Customs"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 40vw"
                                     className="object-cover"
                                 />
                             </div>
@@ -152,6 +154,7 @@ export default function FramingContractor() {
                                         src="/images/services/framing-contractor/synergy.webp"
                                         alt="Massive roofline and architectural framing"
                                         fill
+                                        sizes="(max-width: 1024px) 100vw, 50vw"
                                         className="object-cover"
                                     />
                                 </div>
@@ -160,6 +163,7 @@ export default function FramingContractor() {
                                         src="/images/portfolio/custom-home-20230710.webp"
                                         alt="Finished exterior showcasing how framing translates to final luxury"
                                         fill
+                                        sizes="(max-width: 1024px) 100vw, 50vw"
                                         className="object-cover"
                                     />
                                 </div>
@@ -267,6 +271,7 @@ export default function FramingContractor() {
                                     src="/images/services/framing-contractor/structural.webp"
                                     alt="Complex heavy timber and structural steel framing hybrid"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 50vw"
                                     className="object-cover"
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-[#020617]/90 via-transparent to-transparent"></div>

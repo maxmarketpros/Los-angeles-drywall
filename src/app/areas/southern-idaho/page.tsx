@@ -82,6 +82,7 @@ export default function SouthernIdahoArea() {
                     src="/images/areas/southern-idaho/hero.webp"
                     alt="Massive acreage luxury estate built in Southern Idaho"
                     fill
+                    sizes="100vw"
                     className="object-cover object-center"
                     priority
                 />
@@ -137,6 +138,7 @@ export default function SouthernIdahoArea() {
                                     src="/images/areas/southern-idaho/local-relevance.webp"
                                     alt="Expertly landscaped luxury property in remote Southern Idaho"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 40vw"
                                     className="object-cover"
                                 />
                             </div>
@@ -159,6 +161,7 @@ export default function SouthernIdahoArea() {
                                     src="/images/areas/southern-idaho/synergy.webp"
                                     alt="High-end finishes and structural superiority for an Idaho custom build"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 40vw"
                                     className="object-cover"
                                 />
                                 <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-[var(--color-neutral-900)]/90 via-[var(--color-neutral-900)]/40 to-transparent p-8">
@@ -269,6 +272,7 @@ export default function SouthernIdahoArea() {
                                     src="/images/areas/southern-idaho/structural.webp"
                                     alt="Massive structural retaining walls built in remote Idaho"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 40vw"
                                     className="object-cover"
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-[#020617]/90 via-transparent to-transparent"></div>

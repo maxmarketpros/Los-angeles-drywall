@@ -8,12 +8,12 @@ import HRFStandard from "@/components/HRFStandard";
 import ProcessTimeline from "@/components/ProcessTimeline";
 import LocalKnowledge from "@/components/LocalKnowledge";
 import TestimonialsPreview from "@/components/TestimonialsPreview";
-import ContactCTA from "@/components/ContactCTA";
 import Footer from "@/components/Footer";
 import MobileCallButton from "@/components/MobileCallButton";
 
 const FeaturedWork = dynamic(() => import("@/components/FeaturedWork"));
 const FAQ = dynamic(() => import("@/components/FAQ"));
+const ContactCTA = dynamic(() => import("@/components/ContactCTA"));
 
 export default function HomePage() {
   return (
