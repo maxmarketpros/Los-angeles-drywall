@@ -75,6 +75,7 @@ export default function FeaturedWork() {
                                 src={project.src}
                                 alt={project.alt}
                                 fill
+                                loading="lazy"
                                 className="object-cover transition-transform duration-1000 group-hover:scale-110"
                                 sizes={
                                     index === 0

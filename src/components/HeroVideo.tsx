@@ -8,6 +8,7 @@ export default function HeroVideo() {
                 muted
                 loop
                 playsInline
+                preload="none"
                 className="absolute inset-0 w-full h-full object-cover scale-105"
                 style={{ transformOrigin: "center" }}
                 poster="/images/portfolio/premium-build-01.webp"
