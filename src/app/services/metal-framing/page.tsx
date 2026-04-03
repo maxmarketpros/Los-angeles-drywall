@@ -113,7 +113,7 @@ export default function MetalFramingPage() {
                         <div className="lg:col-span-5 relative order-2 lg:order-1">
                             <div className="relative aspect-[3/4] rounded-3xl overflow-hidden shadow-[0_30px_60px_rgba(0,0,0,0.15)] border border-[var(--color-neutral-200)] group">
                                 <Image
-                                    src="/images/services/metal-framing/detail.jpg"
+                                    src="/images/services/metal-framing/detail.webp"
                                     alt="Steel stud framing detail showing gauge and spacing in Los Angeles"
                                     fill
                                     className="object-cover group-hover:scale-105 transition-transform duration-700"
@@ -203,7 +203,7 @@ export default function MetalFramingPage() {
                             </div>
                             <div className="relative aspect-[3/4] rounded-2xl overflow-hidden shadow-lg border border-[var(--color-neutral-200)] group mt-12">
                                 <Image
-                                    src="/images/services/metal-framing/detail.jpg"
+                                    src="/images/services/metal-framing/detail.webp"
                                     alt="Metal framing steel stud detail in Los Angeles"
                                     fill
                                     className="object-cover group-hover:scale-105 transition-transform duration-700"
