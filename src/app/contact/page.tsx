@@ -1,6 +1,5 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import Script from "next/script";
 import { MapPinIcon, ClockIcon, PhoneIcon, EmailIcon } from "@/components/icons";
 
 export const metadata = {
@@ -60,23 +59,10 @@ export default function ContactPage() {
                             <div className="bg-[var(--color-neutral-50)] border border-[var(--color-neutral-200)] p-2 lg:p-4 w-full rounded-lg shadow-sm">
                                 <iframe
                                     src="https://api.leadconnectorhq.com/widget/form/sereKGCghy5WXVMS60mT"
-                                    style={{ width: "100%", height: "669px", border: "none" }}
-                                    id="inline-sereKGCghy5WXVMS60mT"
-                                    data-layout="{'id':'INLINE'}"
-                                    data-trigger-type="alwaysShow"
-                                    data-trigger-value=""
-                                    data-activation-type="alwaysActivated"
-                                    data-activation-value=""
-                                    data-deactivation-type="neverDeactivate"
-                                    data-deactivation-value=""
-                                    data-form-name="WebSite Form Template"
-                                    data-height="669"
-                                    data-layout-iframe-id="inline-sereKGCghy5WXVMS60mT"
-                                    data-form-id="sereKGCghy5WXVMS60mT"
+                                    style={{ width: "100%", height: "669px", border: "none", borderRadius: "3px" }}
+                                    id="contact-form-sereKGCghy5WXVMS60mT"
                                     title="WebSite Form Template"
-                                >
-                                </iframe>
-                                <Script src="https://link.msgsndr.com/js/form_embed.js" strategy="lazyOnload" />
+                                ></iframe>
                             </div>
                         </div>
 
