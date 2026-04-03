@@ -84,11 +84,11 @@ export default function ContactCTA() {
                             <h3 className="text-2xl font-bold font-[family-name:var(--font-outfit)] text-[var(--color-neutral-900)] mb-6 border-b border-[var(--color-neutral-200)] pb-4 mt-8 lg:mt-0">
                                 Request Your Free Estimate
                             </h3>
-                            <div className="bg-[var(--color-neutral-50)] border border-[var(--color-neutral-200)] p-0 sm:p-2 lg:p-4 w-full flex-grow min-h-[850px] relative rounded-md overflow-hidden">
+                            <div className="bg-[var(--color-neutral-50)] border border-[var(--color-neutral-200)] p-0 sm:p-2 lg:p-4 w-full rounded-md">
                                 <iframe
                                     loading="lazy"
                                     src="https://api.leadconnectorhq.com/widget/form/sereKGCghy5WXVMS60mT"
-                                    style={{ width: "100%", height: "100%", border: "none" }}
+                                    style={{ width: "100%", height: "669px", border: "none" }}
                                     id="inline-sereKGCghy5WXVMS60mT"
                                     data-layout="{'id':'INLINE'}"
                                     data-trigger-type="alwaysShow"
@@ -102,7 +102,6 @@ export default function ContactCTA() {
                                     data-layout-iframe-id="inline-sereKGCghy5WXVMS60mT"
                                     data-form-id="sereKGCghy5WXVMS60mT"
                                     title="WebSite Form Template"
-                                    className="absolute inset-0"
                                 >
                                 </iframe>
                                 <Script src="https://link.msgsndr.com/js/form_embed.js" strategy="lazyOnload" />

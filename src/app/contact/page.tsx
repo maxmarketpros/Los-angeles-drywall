@@ -57,10 +57,10 @@ export default function ContactPage() {
                                 <span className="w-8 h-8 rounded bg-[var(--color-primary)]/10 flex items-center justify-center text-[var(--color-primary)] text-sm">01</span>
                                 Request a Free Estimate
                             </h2>
-                            <div className="bg-[var(--color-neutral-50)] border border-[var(--color-neutral-200)] p-2 lg:p-4 w-full min-h-[850px] relative rounded-lg shadow-sm">
+                            <div className="bg-[var(--color-neutral-50)] border border-[var(--color-neutral-200)] p-2 lg:p-4 w-full rounded-lg shadow-sm">
                                 <iframe
                                     src="https://api.leadconnectorhq.com/widget/form/sereKGCghy5WXVMS60mT"
-                                    style={{ width: "100%", height: "100%", border: "none" }}
+                                    style={{ width: "100%", height: "669px", border: "none" }}
                                     id="inline-sereKGCghy5WXVMS60mT"
                                     data-layout="{'id':'INLINE'}"
                                     data-trigger-type="alwaysShow"
@@ -69,12 +69,11 @@ export default function ContactPage() {
                                     data-activation-value=""
                                     data-deactivation-type="neverDeactivate"
                                     data-deactivation-value=""
-                                    data-form-name="LA Drywall Contact Form"
-                                    data-height="850"
+                                    data-form-name="WebSite Form Template"
+                                    data-height="669"
                                     data-layout-iframe-id="inline-sereKGCghy5WXVMS60mT"
                                     data-form-id="sereKGCghy5WXVMS60mT"
-                                    title="LA Drywall Contact Form"
-                                    className="absolute inset-0"
+                                    title="WebSite Form Template"
                                 >
                                 </iframe>
                                 <Script src="https://link.msgsndr.com/js/form_embed.js" strategy="lazyOnload" />
