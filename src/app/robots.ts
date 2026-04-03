@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
             userAgent: '*',
             allow: '/',
         },
-        sitemap: 'https://hrfcustoms.com/sitemap.xml',
+        sitemap: 'https://losangelesdrywallandframing.com/sitemap.xml',
     }
 }

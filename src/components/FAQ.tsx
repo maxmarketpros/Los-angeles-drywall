@@ -6,39 +6,39 @@ import { PlusIcon } from "./icons";
 const faqs = [
     {
         question:
-            "How far does HRF Customs travel from Paradise, UT for custom home projects?",
+            "What areas does Los Angeles Drywall & Framing serve?",
         answer:
-            "We serve homeowners and landowners across Northern Utah, Cache Valley, Southern Idaho, and Western Wyoming. Most of our work falls within a reasonable driving distance from our base in Paradise, Utah. If you have a specific geography in mind, reach out directly to confirm capability.",
+            "We serve the greater Los Angeles metro area including Beverly Hills, Santa Monica, Pasadena, Glendale, Burbank, and surrounding communities. If you have a project in the LA area, contact us to confirm availability.",
     },
     {
         question:
-            "What level of detail goes into preconstruction planning?",
+            "Are you licensed and insured?",
         answer:
-            "Preconstruction planning includes an intense review of your building site, conceptual plans, engineering requirements, and permitting roadblocks. We establish a massive, line-item budget and an ironclad sequencing timeline so there are practically zero surprises when bulldozers arrive.",
+            "Yes. We hold California Contractor License #1141917 and carry full liability insurance and workers compensation coverage. We are happy to provide proof of licensing and insurance upon request.",
     },
     {
         question:
-            "How does HRF Customs handle budgets and change orders?",
+            "Do you provide free estimates?",
         answer:
-            "Every project begins with a deeply transparent budget that you sign off on. If changes arise, we deploy a ruthless change-order protocol containing a written scope, cost impact, and signature requirement before any tools are picked back up. Financial transparency is non-negotiable.",
+            "Yes. We provide detailed, no-obligation estimates for all drywall, framing, and specialty projects. Contact us by phone or through our online form to schedule an estimate at your convenience.",
     },
     {
         question:
-            "How does HRF Customs coordinate massive engineering and structural inspections?",
+            "What types of properties do you work on?",
         answer:
-            "We coordinate directly with civil and structural engineers, executing their specs precisely. As your general contractor, we bake uncompromising “hold points” into the schedule to confirm that crucial phases like foundation depth, rebar grids, and waterproofing meet flawless code standards before moving forward.",
+            "We work on residential and commercial properties of all sizes. This includes single-family homes, apartments, condos, offices, retail spaces, and tenant improvements throughout Los Angeles.",
     },
     {
         question:
-            "What factors affect extreme build timelines in this region?",
+            "How long does a typical drywall project take?",
         answer:
-            "Build timelines in Cache Valley and Wyoming are dominated by brutal winter weather windows, frozen ground sequencing, local jurisdiction red-tape, and specialized trade availability. We account for absolutely all of this in our initial baseline schedule so expectations are real.",
+            "Project timelines vary depending on scope. A single room repair may take one to two days, while a full home installation can take one to two weeks. We provide a clear timeline with every estimate so you know what to expect.",
     },
     {
         question:
-            "Does HRF Customs handle the full build or just massive framing/concrete phases?",
+            "Do you handle both drywall and framing?",
         answer:
-            "We excel at both full-lifecycle project delivery and standalone specialized framing/foundation contracts. Many clients retain us to general contract the entire mansion site-work to final coat. Others hire our heavy-duty framing units just to get the structure dried in flawlessly.",
+            "Yes. We offer both drywall services (installation, repair, finishing, texturing, patching) and framing services (wall framing, residential framing, commercial framing, rough carpentry, custom framing, metal framing) along with stucco and exterior painting.",
     },
 ];
 
@@ -81,7 +81,7 @@ export default function FAQ() {
                         </h2>
 
                         <p className="text-[var(--color-neutral-600)] text-lg leading-relaxed max-w-2xl mx-auto">
-                            Direct answers to complex inquiries about executing high-end custom homes across Northern Utah and the surrounding geographic regions.
+                            Direct answers to common questions about our drywall and framing services across the Los Angeles metro area.
                         </p>
                     </div>
 

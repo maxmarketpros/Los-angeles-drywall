@@ -12,28 +12,31 @@ const navLinks = [
         href: "/services",
         megaMenu: [
             {
-                title: "Core Builds",
+                title: "Drywall Services",
                 links: [
-                    { label: "Custom Home Builder", href: "/services/custom-home-builder" },
-                    { label: "Luxury Custom Home Builder", href: "/services/luxury-custom-home-builder" },
-                    { label: "Design Build Contractor", href: "/services/design-build-contractor" },
+                    { label: "Drywall Installation", href: "/services/drywall-installation" },
+                    { label: "Drywall Repair", href: "/services/drywall-repair" },
+                    { label: "Drywall Finishing", href: "/services/drywall-finishing" },
+                    { label: "Drywall Texturing", href: "/services/drywall-texturing" },
+                    { label: "Drywall Patching", href: "/services/drywall-patching" },
                 ]
             },
             {
-                title: "General & Trades",
+                title: "Framing Services",
                 links: [
-                    { label: "General Contracting", href: "/services/general-contractor-for-custom-homes" },
-                    { label: "Framing Contractors", href: "/services/framing-contractors" },
-                    { label: "Concrete Services", href: "/services/concrete-services" },
-                    { label: "Excavation Work", href: "/services/excavation-work" },
+                    { label: "Wall Framing", href: "/services/wall-framing" },
+                    { label: "Residential Framing", href: "/services/residential-framing" },
+                    { label: "Commercial Framing", href: "/services/commercial-framing" },
+                    { label: "Rough Carpentry", href: "/services/rough-carpentry" },
+                    { label: "Custom Framing", href: "/services/custom-framing" },
                 ]
             },
             {
-                title: "Planning",
+                title: "Specialty Services",
                 links: [
-                    { label: "Preconstruction Planning", href: "/services/preconstruction-planning" },
-                    { label: "Project Management", href: "/services/project-management" },
-                    { label: "Build Consultation", href: "/services/home-build-consultation" },
+                    { label: "Exterior Painting", href: "/services/exterior-painting" },
+                    { label: "Stucco", href: "/services/stucco" },
+                    { label: "Metal Framing", href: "/services/metal-framing" },
                 ]
             }
         ]
@@ -43,28 +46,13 @@ const navLinks = [
         href: "/areas",
         megaMenu: [
             {
-                title: "Utah",
+                title: "Los Angeles Metro",
                 links: [
-                    { label: "Northern Utah", href: "/areas/northern-utah" },
-                    { label: "Cache Valley", href: "/areas/cache-valley-utah" },
-                    { label: "Logan Area", href: "/areas/logan-utah-area" },
-                    { label: "Bear Lake Region", href: "/areas/bear-lake-region-utah-idaho" },
-                ]
-            },
-            {
-                title: "Idaho",
-                links: [
-                    { label: "Southern Idaho", href: "/areas/southern-idaho" },
-                    { label: "Preston Area", href: "/areas/preston-idaho-area" },
-                    { label: "Soda Springs", href: "/areas/soda-springs-idaho-area" },
-                ]
-            },
-            {
-                title: "Wyoming",
-                links: [
-                    { label: "Western Wyoming", href: "/areas/western-wyoming" },
-                    { label: "Star Valley", href: "/areas/star-valley-wyoming" },
-                    { label: "Jackson Hole", href: "/areas/jackson-hole-region-wyoming" },
+                    { label: "Beverly Hills", href: "/areas/beverly-hills" },
+                    { label: "Santa Monica", href: "/areas/santa-monica" },
+                    { label: "Pasadena", href: "/areas/pasadena" },
+                    { label: "Glendale", href: "/areas/glendale" },
+                    { label: "Burbank", href: "/areas/burbank" },
                 ]
             }
         ]
@@ -110,8 +98,8 @@ export default function Header() {
                         {/* When transparent, use the white (inverted) logo. When scrolled, use the colored logo. */}
                         <div className="relative w-[150px] h-[46px] md:w-[200px] md:h-[61px] lg:w-[220px] lg:h-[67px]">
                             <Image
-                                src="/images/logo.webp"
-                                alt="HRF Customs colored logo"
+                                src="/images/logo.png"
+                                alt="Los Angeles Drywall & Framing logo"
                                 fill
                                 sizes="(max-width: 768px) 150px, (max-width: 1024px) 200px, 220px"
                                 className={`object-contain object-left transition-opacity duration-300 ${isScrolled || isMobileMenuOpen ? "opacity-100" : "opacity-0"
@@ -119,12 +107,13 @@ export default function Header() {
                                 priority
                             />
                             <Image
-                                src="/images/logo-inverted.webp"
-                                alt="HRF Customs white logo"
+                                src="/images/logo.png"
+                                alt="Los Angeles Drywall & Framing logo"
                                 fill
                                 sizes="(max-width: 768px) 150px, (max-width: 1024px) 200px, 220px"
                                 className={`object-contain object-left transition-opacity duration-300 ${isScrolled || isMobileMenuOpen ? "opacity-0" : "opacity-100"
                                     }`}
+                                style={{ filter: 'brightness(0) invert(1)' }}
                                 priority
                             />
                         </div>
@@ -181,14 +170,14 @@ export default function Header() {
 
                     <div className="hidden lg:flex items-center gap-4 shrink-0 pl-4">
                         <a
-                            href="tel:4357600279"
+                            href="tel:3107309832"
                             className={`flex items-center gap-1.5 text-sm font-bold transition-colors ${isScrolled || isMobileMenuOpen
                                 ? "text-[var(--color-neutral-800)] hover:text-[var(--color-primary)]"
                                 : "text-white hover:text-[var(--color-primary-light)]"
                                 }`}
                         >
                             <PhoneIcon size={16} />
-                            (435) 760 0279
+                            (310) 730-9832
                         </a>
                         <a
                             href="/contact"
@@ -197,7 +186,7 @@ export default function Header() {
                                 : ""
                                 }`}
                         >
-                            Initiate Project
+                            Get Free Estimate
                         </a>
                     </div>
 
@@ -253,18 +242,18 @@ export default function Header() {
                         ))}
                         <hr className="my-6 border-[var(--color-neutral-200)]" />
                         <a
-                            href="tel:4357600279"
+                            href="tel:3107309832"
                             className="flex items-center justify-center gap-2 py-4 px-4 text-lg font-bold text-[var(--color-primary)]"
                         >
                             <PhoneIcon size={20} />
-                            (435) 760 0279
+                            (310) 730-9832
                         </a>
                         <a
                             href="/contact"
                             onClick={() => setIsMobileMenuOpen(false)}
                             className="btn-primary text-center mt-2 mx-4"
                         >
-                            Initiate Project
+                            Get Free Estimate
                         </a>
                     </div>
                 </div>

@@ -1,37 +1,33 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = 'https://hrfcustoms.com'
+    const baseUrl = 'https://losangelesdrywallandframing.com'
 
     const routes = [
         '',
         '/about',
-        '/areas',
-        '/areas/bear-lake-region-utah-idaho',
-        '/areas/cache-valley-utah',
-        '/areas/jackson-hole-region-wyoming',
-        '/areas/logan-utah-area',
-        '/areas/northern-utah',
-        '/areas/preston-idaho-area',
-        '/areas/soda-springs-idaho-area',
-        '/areas/southern-idaho',
-        '/areas/star-valley-wyoming',
-        '/areas/western-wyoming',
         '/contact',
         '/faq',
         '/privacy-policy',
         '/process',
-        '/services',
-        '/services/concrete-services',
-        '/services/custom-home-builder',
-        '/services/design-build-contractor',
-        '/services/excavation-work',
-        '/services/framing-contractors',
-        '/services/general-contractor-for-custom-homes',
-        '/services/home-build-consultation',
-        '/services/luxury-custom-home-builder',
-        '/services/preconstruction-planning',
-        '/services/project-management',
+        '/services/drywall-installation',
+        '/services/drywall-repair',
+        '/services/drywall-finishing',
+        '/services/drywall-texturing',
+        '/services/drywall-patching',
+        '/services/wall-framing',
+        '/services/residential-framing',
+        '/services/commercial-framing',
+        '/services/rough-carpentry',
+        '/services/custom-framing',
+        '/services/exterior-painting',
+        '/services/stucco',
+        '/services/metal-framing',
+        '/areas/beverly-hills',
+        '/areas/santa-monica',
+        '/areas/pasadena',
+        '/areas/glendale',
+        '/areas/burbank',
     ]
 
     return routes.map((route) => ({

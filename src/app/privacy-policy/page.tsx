@@ -3,8 +3,8 @@ import Footer from "@/components/Footer";
 import ContactCTA from "@/components/ContactCTA";
 
 export const metadata = {
-    title: "Privacy Policy | HRF Customs",
-    description: "Privacy policy for HRF Customs. We value your privacy and are committed to protecting your personal information.",
+    title: "Privacy Policy | Los Angeles Drywall & Framing",
+    description: "Privacy policy for Los Angeles Drywall & Framing. We value your privacy and are committed to protecting your personal information.",
 };
 
 export default function PrivacyPolicyPage() {
@@ -29,7 +29,7 @@ export default function PrivacyPolicyPage() {
                         Privacy Policy
                     </h1>
                     <p className="text-lg lg:text-xl text-[var(--color-neutral-300)] leading-relaxed max-w-2xl mx-auto font-light">
-                        How we collect, use, and protect your information at HRF Customs.
+                        How we collect, use, and protect your information at Los Angeles Drywall & Framing.
                     </p>
                 </div>
                 {/* Massive Watermark */}
@@ -54,7 +54,7 @@ export default function PrivacyPolicyPage() {
                                 Last Updated: {new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
                             </p>
                             <p className="text-[var(--color-neutral-600)] leading-relaxed mt-4 font-medium">
-                                At HRF Customs, accessible from hrfcustoms.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by HRF Customs and how we use it.
+                                At Los Angeles Drywall & Framing, accessible from losangelesdrywallandframing.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Los Angeles Drywall & Framing and how we use it.
                             </p>
                             <p className="text-[var(--color-neutral-600)] leading-relaxed mt-4">
                                 If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.
@@ -68,7 +68,7 @@ export default function PrivacyPolicyPage() {
                                     Log Files
                                 </h2>
                                 <p className="text-[var(--color-neutral-600)] leading-loose">
-                                    HRF Customs follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services&apos; analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users&apos; movement on the website, and gathering demographic information.
+                                    Los Angeles Drywall & Framing follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services&apos; analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users&apos; movement on the website, and gathering demographic information.
                                 </p>
                             </div>
 
@@ -88,7 +88,7 @@ export default function PrivacyPolicyPage() {
                                     Cookies and Web Beacons
                                 </h2>
                                 <p className="text-[var(--color-neutral-600)] leading-loose">
-                                    Like any other website, HRF Customs uses &apos;cookies&apos;. These cookies are used to store information including visitors&apos; preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users&apos; experience by customizing our web page content based on visitors&apos; browser type and/or other information.
+                                    Like any other website, Los Angeles Drywall & Framing uses &apos;cookies&apos;. These cookies are used to store information including visitors&apos; preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users&apos; experience by customizing our web page content based on visitors&apos; browser type and/or other information.
                                 </p>
                             </div>
 
@@ -98,7 +98,7 @@ export default function PrivacyPolicyPage() {
                                     Third Party Privacy Policies
                                 </h2>
                                 <p className="text-[var(--color-neutral-600)] leading-loose">
-                                    HRF Customs&apos;s Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options.
+                                    Los Angeles Drywall & Framing&apos;s Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options.
                                 </p>
                             </div>
 
@@ -111,7 +111,7 @@ export default function PrivacyPolicyPage() {
                                     Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.
                                 </p>
                                 <p className="text-[var(--color-neutral-600)] leading-loose mt-4">
-                                    HRF Customs does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.
+                                    Los Angeles Drywall & Framing does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.
                                 </p>
                             </div>
 

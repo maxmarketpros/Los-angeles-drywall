@@ -3,63 +3,51 @@ import { PhoneIcon, EmailIcon, MapPinIcon } from "./icons";
 
 const companyLinks = [
     { label: "Home", href: "/" },
-    { label: "About HRF", href: "/about" },
-    { label: "Our Process", href: "/process" },
+    { label: "About", href: "/about" },
+    { label: "Process", href: "/process" },
     { label: "FAQ", href: "/faq" },
 ];
 
 const serviceGroups = [
     {
-        title: "Core Builds",
+        title: "Drywall Services",
         links: [
-            { label: "Custom Home Builder", href: "/services/custom-home-builder" },
-            { label: "Luxury Custom Home Builder", href: "/services/luxury-custom-home-builder" },
-            { label: "Design Build Contractor", href: "/services/design-build-contractor" },
+            { label: "Drywall Installation", href: "/services/drywall-installation" },
+            { label: "Drywall Repair", href: "/services/drywall-repair" },
+            { label: "Drywall Finishing", href: "/services/drywall-finishing" },
+            { label: "Drywall Texturing", href: "/services/drywall-texturing" },
+            { label: "Drywall Patching", href: "/services/drywall-patching" },
         ]
     },
     {
-        title: "General & Trades",
+        title: "Framing Services",
         links: [
-            { label: "General Contracting", href: "/services/general-contractor-for-custom-homes" },
-            { label: "Framing Contractors", href: "/services/framing-contractors" },
-            { label: "Concrete Services", href: "/services/concrete-services" },
-            { label: "Excavation Work", href: "/services/excavation-work" },
+            { label: "Wall Framing", href: "/services/wall-framing" },
+            { label: "Residential Framing", href: "/services/residential-framing" },
+            { label: "Commercial Framing", href: "/services/commercial-framing" },
+            { label: "Rough Carpentry", href: "/services/rough-carpentry" },
+            { label: "Custom Framing", href: "/services/custom-framing" },
         ]
     },
     {
-        title: "Planning",
+        title: "Specialty Services",
         links: [
-            { label: "Preconstruction", href: "/services/preconstruction-planning" },
-            { label: "Project Management", href: "/services/project-management" },
-            { label: "Consultation", href: "/services/home-build-consultation" },
+            { label: "Exterior Painting", href: "/services/exterior-painting" },
+            { label: "Stucco", href: "/services/stucco" },
+            { label: "Metal Framing", href: "/services/metal-framing" },
         ]
     }
 ];
 
 const areaGroups = [
     {
-        title: "Utah",
+        title: "Los Angeles Metro",
         links: [
-            { label: "Northern Utah", href: "/areas/northern-utah" },
-            { label: "Cache Valley", href: "/areas/cache-valley-utah" },
-            { label: "Logan, UT", href: "/areas/logan-utah-area" },
-            { label: "Bear Lake Region", href: "/areas/bear-lake-region-utah-idaho" },
-        ]
-    },
-    {
-        title: "Idaho",
-        links: [
-            { label: "Southern Idaho", href: "/areas/southern-idaho" },
-            { label: "Preston, ID", href: "/areas/preston-idaho-area" },
-            { label: "Soda Springs, ID", href: "/areas/soda-springs-idaho-area" },
-        ]
-    },
-    {
-        title: "Wyoming",
-        links: [
-            { label: "Western Wyoming", href: "/areas/western-wyoming" },
-            { label: "Star Valley, WY", href: "/areas/star-valley-wyoming" },
-            { label: "Jackson Hole, WY", href: "/areas/jackson-hole-region-wyoming" },
+            { label: "Beverly Hills", href: "/areas/beverly-hills" },
+            { label: "Santa Monica", href: "/areas/santa-monica" },
+            { label: "Pasadena", href: "/areas/pasadena" },
+            { label: "Glendale", href: "/areas/glendale" },
+            { label: "Burbank", href: "/areas/burbank" },
         ]
     }
 ];
@@ -71,16 +59,15 @@ export default function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 lg:gap-8">
                     <div className="lg:col-span-4 lg:pr-8">
                         <Image
-                            src="/images/logo-inverted.webp"
-                            alt="HRF Customs logo"
+                            src="/images/logo.png"
+                            alt="Los Angeles Drywall & Framing logo"
                             width={160}
                             height={52}
                             className="mb-6"
+                            style={{ filter: 'brightness(0) invert(1)' }}
                         />
                         <p className="text-[15px] text-neutral-400 leading-relaxed max-w-sm">
-                            Custom home builder and general contractor based in Paradise, UT.
-                            Serving Northern Utah, Southern Idaho, and Western Wyoming with
-                            owner-led project management and quality-focused construction.
+                            Licensed drywall contractor and framing specialist serving Los Angeles, CA and the surrounding metro area. Quality craftsmanship for residential and commercial projects. CA License #1141917.
                         </p>
                     </div>
 
@@ -162,24 +149,23 @@ export default function Footer() {
                         </h4>
                         <div className="space-y-4">
                             <a
-                                href="tel:4357600279"
+                                href="tel:3107309832"
                                 className="flex items-center gap-3 text-[14px] text-[var(--color-primary-light)] font-medium hover:text-white transition-colors"
                             >
                                 <PhoneIcon size={18} />
-                                (435) 760 0279
+                                (310) 730-9832
                             </a>
                             <a
-                                href="/contact"
+                                href="mailto:sales@losangelesdrywallandframing.com"
                                 className="flex items-center gap-3 text-[14px] text-neutral-400 hover:text-white transition-colors"
                             >
                                 <EmailIcon size={18} />
-                                highridgeframing@gmail.com
+                                sales@losangelesdrywallandframing.com
                             </a>
                             <div className="flex items-start gap-3 text-[14px] text-neutral-400">
                                 <MapPinIcon size={18} className="shrink-0 mt-0.5" />
                                 <span className="leading-relaxed">
-                                    8536 S 150 E<br />
-                                    Paradise, UT 84328
+                                    Los Angeles, CA
                                 </span>
                             </div>
                         </div>
@@ -190,7 +176,7 @@ export default function Footer() {
             <div className="border-t border-white/10 bg-black/20">
                 <div className="page-container py-6 flex flex-col md:flex-row items-center justify-between gap-4">
                     <p className="text-sm text-neutral-500 font-inter">
-                        &copy; {new Date().getFullYear()} HRF Customs. All rights reserved.
+                        &copy; {new Date().getFullYear()} Los Angeles Drywall & Framing. All rights reserved.
                     </p>
                     <div className="flex gap-8">
                         <a

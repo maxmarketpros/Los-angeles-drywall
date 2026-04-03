@@ -2,53 +2,53 @@ import {
     UsersIcon,
     SearchIcon,
     ClipboardIcon,
-    DollarIcon,
     HardHatIcon,
     FileCheckIcon,
+    CheckCircleIcon,
 } from "./icons";
 
 const steps = [
     {
         number: "01",
         icon: UsersIcon,
-        title: "Consultation & Vision Setting",
+        title: "Initial Consultation",
         description:
-            "A candid conversation about goals, land, budget, and timelines. We determine if our owner-led approach is the right fit for your custom build with zero pressure.",
+            "Tell us about your project. We discuss the scope of work, your goals, timeline, and budget. Whether it is a small repair or a full-scale installation, we tailor our approach to your needs.",
     },
     {
         number: "02",
         icon: SearchIcon,
-        title: "Site & Engineering Review",
+        title: "On-Site Assessment",
         description:
-            "Deep analysis of your building site, conceptual plans, and geotechnical data. If you need architects or engineers, we coordinate those critical relationships immediately.",
+            "Our team visits your property to take measurements, evaluate existing conditions, and identify any potential challenges. This ensures an accurate estimate and a smooth project start.",
     },
     {
         number: "03",
         icon: ClipboardIcon,
-        title: "Preconstruction Planning",
+        title: "Detailed Estimate",
         description:
-            "The most critical phase. We write a detailed scope of work, map out trade sequencing, and tackle permitting roadblocks before they ever hit the actual job site.",
+            "You receive a clear, line-item estimate covering materials, labor, and timeline. No hidden fees, no surprise charges. You approve the scope before any work begins.",
     },
     {
         number: "04",
-        icon: DollarIcon,
-        title: "Transparent Budgeting",
+        icon: HardHatIcon,
+        title: "Professional Execution",
         description:
-            "You receive a transparent, line-item budget and a highly structured project schedule. You'll know exactly where every dollar goes before ground is broken.",
+            "Our experienced crew arrives on schedule with the right materials and equipment. We follow industry best practices and California building codes throughout every phase of the project.",
     },
     {
         number: "05",
-        icon: HardHatIcon,
-        title: "Owner-Led Build Phase",
+        icon: CheckCircleIcon,
+        title: "Quality Inspection",
         description:
-            "We manage daily trade coordination, rigorous inspections, and relentless quality control. You have direct access to the project owner throughout the massive undertaking.",
+            "Before we consider the job complete, we conduct a thorough quality inspection. We check every seam, joint, and surface to make sure the finished product meets our standards and yours.",
     },
     {
         number: "06",
         icon: FileCheckIcon,
-        title: "Closeout & Final Handoff",
+        title: "Final Walkthrough",
         description:
-            "A comprehensive final walkthrough, completely compiled project documentation, and handover of your new custom home. We stand by our work long after you move in.",
+            "We walk through the completed project with you. If anything needs attention, we address it immediately. Your satisfaction is confirmed before we wrap up.",
     },
 ];
 
@@ -65,11 +65,11 @@ export default function ProcessTimeline() {
                     </div>
 
                     <h2 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.15] mb-6 mx-auto">
-                        From Concept to Completion
+                        How We Work
                     </h2>
 
                     <p className="text-[var(--color-neutral-600)] text-lg leading-relaxed mx-auto max-w-2xl">
-                        Every highly-complex HRF Customs project is governed by a meticulous, proven framework. Our six-step process maintains extreme accountability, transparency, and schedule precision.
+                        Every Los Angeles Drywall & Framing project follows a proven six-step process. From the first phone call to the final walkthrough, we maintain clear communication, reliable scheduling, and consistent quality.
                     </p>
                 </div>
 
@@ -113,7 +113,7 @@ export default function ProcessTimeline() {
 
                 <div className="text-center mt-16 lg:mt-20">
                     <a href="/contact" className="btn-primary inline-flex items-center gap-2 group shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all">
-                        Initiate A Project
+                        Get Your Free Estimate
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="group-hover:translate-x-1 transition-transform">
                             <line x1="5" y1="12" x2="19" y2="12"></line>
                             <polyline points="12 5 19 12 12 19"></polyline>

@@ -2,9 +2,9 @@ import Image from "next/image";
 import { ArrowRightIcon, CheckCircleIcon } from "./icons";
 
 const benefits = [
-    { title: "Transparent Line-Item Budgets", desc: "No hidden fees. You see exactly where your money goes before we break ground." },
-    { title: "Owner-Led Accountability", desc: "We lead the build in person. Direct communication with the owner at every phase." },
-    { title: "Regional Expertise", desc: "Built to withstand Northern Utah's freezing winters, snow loads, and elevation." }
+    { title: "Licensed and Insured", desc: "Fully licensed California contractor (License #1141917) with comprehensive insurance coverage. Your property and project are protected." },
+    { title: "Free Estimates and Transparent Pricing", desc: "Detailed project estimates at no cost. You know exactly what the work involves and what it will cost before we begin." },
+    { title: "Local Los Angeles Expertise", desc: "Deep knowledge of LA building codes, seismic requirements, and the specific construction standards required throughout Southern California." }
 ];
 
 export default function AuthorityIntro() {
@@ -16,16 +16,21 @@ export default function AuthorityIntro() {
                     {/* Left side: Content */}
                     <div className="order-2 lg:order-1">
                         <div className="inline-flex items-center px-4 py-1.5 bg-[var(--color-primary-light)]/10 text-[var(--color-primary-light)] text-xs font-bold uppercase tracking-[0.2em] rounded mb-6">
-                            About HRF Customs
+                            About Los Angeles Drywall & Framing
                         </div>
 
                         <h2 className="text-4xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.1] mb-6 tracking-tight">
-                            Your Trusted Custom Home Builder in Paradise, UT and the Surrounding Region
+                            Your Trusted Drywall Contractor in Los Angeles, CA and the Surrounding Area
                         </h2>
 
-                        <p className="text-lg text-[var(--color-neutral-600)] leading-relaxed mb-10">
-                            HRF Customs is a premium custom home builder and general contractor based in Paradise, Utah. For more than 15 years, we have helped homeowners across Northern Utah, Southern Idaho, and Western Wyoming turn their exact vision into a meticulously built home.
-                        </p>
+                        <div className="text-lg text-[var(--color-neutral-600)] leading-relaxed mb-10 space-y-4">
+                            <p>
+                                Los Angeles Drywall & Framing is a licensed and insured drywall contractor and framing specialist based in Los Angeles, California. We provide expert drywall installation, repair, finishing, texturing, and patching alongside professional wall framing, residential and commercial framing, rough carpentry, stucco, and exterior painting services.
+                            </p>
+                            <p>
+                                Our team serves homeowners, property managers, and general contractors across the greater Los Angeles metro area including Beverly Hills, Santa Monica, Pasadena, Glendale, and Burbank. We hold California Contractor License #1141917 and stand behind every project with transparent communication and reliable workmanship.
+                            </p>
+                        </div>
 
                         <div className="space-y-6 mb-12">
                             {benefits.map((benefit, i) => (
@@ -48,7 +53,7 @@ export default function AuthorityIntro() {
                         <div className="flex flex-col sm:flex-row gap-5">
                             <a href="#contact" className="btn-primary group w-full sm:w-auto overflow-hidden relative" style={{ padding: "1rem 2.5rem" }}>
                                 <span className="relative z-10 flex flex-row items-center justify-center gap-2 font-semibold">
-                                    Start Your Project
+                                    Get Free Estimate
                                     <ArrowRightIcon size={18} className="transition-transform group-hover:translate-x-1" />
                                 </span>
                             </a>
@@ -62,8 +67,8 @@ export default function AuthorityIntro() {
                     <div className="relative order-1 lg:order-2 flex flex-col justify-start">
                         <div className="relative w-full aspect-square rounded-2xl overflow-hidden shadow-2xl border-4 border-white mb-6">
                             <Image
-                                src="/images/portfolio/premium-build-01.webp"
-                                alt="Custom home built by HRF Customs in Northern Utah"
+                                src="/images/services/drywall-installation/hero.jpg"
+                                alt="Professional drywall installation by Los Angeles Drywall & Framing"
                                 fill
                                 className="object-cover"
                                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -73,24 +78,24 @@ export default function AuthorityIntro() {
                         {/* Text below the image instead of an overlay */}
                         <div className="bg-white p-2 text-center lg:text-left">
                             <h3 className="text-[var(--color-neutral-900)] text-xl font-[family-name:var(--font-outfit)] font-bold mb-1">
-                                Quality Without Compromise
+                                Quality Craftsmanship You Can Count On
                             </h3>
                             <p className="text-[var(--color-neutral-500)] text-sm leading-relaxed">
-                                Full project delivery by HRF Customs in Northern Utah.
+                                Licensed drywall and framing services across Los Angeles, CA.
                             </p>
                         </div>
 
                         {/* Floating Experience Badge */}
                         <div className="absolute top-8 -left-4 sm:-left-8 lg:-left-12 bg-white/95 backdrop-blur-md p-5 shadow-[0_10px_40px_rgba(0,0,0,0.1)] rounded-xl border border-[var(--color-neutral-100)] flex flex-row sm:flex-col lg:flex-row items-center gap-4">
-                            <div className="w-14 h-14 sm:w-16 sm:h-16 flex items-center justify-center bg-[var(--color-primary-light)] text-white text-2xl sm:text-3xl font-[family-name:var(--font-outfit)] font-black rounded-full shadow-inner shrink-0 leading-none">
-                                15+
+                            <div className="w-14 h-14 sm:w-16 sm:h-16 flex items-center justify-center bg-[var(--color-primary-light)] text-white text-lg sm:text-xl font-[family-name:var(--font-outfit)] font-black rounded-full shadow-inner shrink-0 leading-none">
+                                CA Lic.
                             </div>
                             <div className="flex flex-col text-left sm:text-center lg:text-left">
                                 <p className="text-[10px] uppercase font-black tracking-widest text-[var(--color-neutral-400)] leading-tight mb-1">
-                                    Over
+                                    License
                                 </p>
                                 <p className="text-xs sm:text-sm font-black uppercase tracking-widest text-[var(--color-neutral-800)] leading-tight">
-                                    Years of <br className="hidden sm:block lg:hidden" /> Experience
+                                    #1141917
                                 </p>
                             </div>
                         </div>

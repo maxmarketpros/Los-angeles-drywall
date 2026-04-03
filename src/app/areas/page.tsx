@@ -3,39 +3,42 @@ import Footer from "@/components/Footer";
 import ContactCTA from "@/components/ContactCTA";
 
 export const metadata = {
-    title: "Areas We Serve | HRF Customs",
-    description: "Explore the primary service regions for HRF Customs, including Northern Utah, Cache Valley, Southern Idaho, and Western Wyoming.",
+    title: "Areas We Serve | Los Angeles Drywall & Framing",
+    description: "Los Angeles Drywall & Framing provides professional drywall and framing services across the greater Los Angeles metro including Hollywood, Beverly Hills, Santa Monica, Pasadena, and more.",
 };
 
 const serviceAreas = [
     {
-        region: "Utah",
-        description: "Executing premium custom home builds across the rugged terrains and growing valleys of Northern Utah.",
+        region: "West Los Angeles",
+        description: "Professional drywall and framing services across the Westside, from coastal communities to upscale residential neighborhoods.",
         locations: [
-            { name: "Northern Utah", href: "/areas/northern-utah" },
-            { name: "Cache Valley", href: "/areas/cache-valley-utah" },
-            { name: "Logan Area", href: "/areas/logan-utah-area" },
-            { name: "Bear Lake Region", href: "/areas/bear-lake-region-utah-idaho" },
+            { name: "Santa Monica", href: "/areas/santa-monica" },
+            { name: "Beverly Hills", href: "/areas/beverly-hills" },
+            { name: "Brentwood", href: "/areas/brentwood" },
+            { name: "West Hollywood", href: "/areas/west-hollywood" },
+            { name: "Culver City", href: "/areas/culver-city" },
         ]
     },
     {
-        region: "Idaho",
-        description: "Delivering uncompromising quality for custom estates and specialized heavy-timber framing across Southern Idaho.",
+        region: "Central & Downtown LA",
+        description: "Serving the heart of Los Angeles with residential and commercial drywall and framing for new construction, remodels, and tenant improvements.",
         locations: [
-            { name: "Southern Idaho", href: "/areas/southern-idaho" },
-            { name: "Preston Area", href: "/areas/preston-idaho-area" },
-            { name: "Soda Springs", href: "/areas/soda-springs-idaho-area" },
-            { name: "Bear Lake (Idaho Side)", href: "/areas/bear-lake-region-utah-idaho" },
+            { name: "Downtown LA", href: "/areas/downtown-la" },
+            { name: "Hollywood", href: "/areas/hollywood" },
+            { name: "Mid-Wilshire", href: "/areas/mid-wilshire" },
+            { name: "Koreatown", href: "/areas/koreatown" },
+            { name: "Silver Lake & Echo Park", href: "/areas/silver-lake" },
         ]
     },
     {
-        region: "Wyoming",
-        description: "Specializing in extreme high-altitude luxury builds designed to withstand the brutal winters of Western Wyoming.",
+        region: "San Fernando Valley & Beyond",
+        description: "Reliable drywall and framing services throughout the Valley, Glendale, Pasadena, and surrounding communities in LA County.",
         locations: [
-            { name: "Western Wyoming", href: "/areas/western-wyoming" },
-            { name: "Star Valley", href: "/areas/star-valley-wyoming" },
-            { name: "Jackson Hole Region", href: "/areas/jackson-hole-region-wyoming" },
-            { name: "Alpine", href: "/areas/star-valley-wyoming" },
+            { name: "San Fernando Valley", href: "/areas/san-fernando-valley" },
+            { name: "Burbank", href: "/areas/burbank" },
+            { name: "Glendale", href: "/areas/glendale" },
+            { name: "Pasadena", href: "/areas/pasadena" },
+            { name: "South Bay", href: "/areas/south-bay" },
         ]
     }
 ];
@@ -56,18 +59,18 @@ export default function AreasPage() {
 
                 <div className="page-container relative z-10 text-center max-w-4xl mx-auto">
                     <div className="inline-flex items-center px-4 py-1.5 bg-[var(--color-primary-light)]/10 text-[var(--color-primary-light)] text-[10px] sm:text-xs font-bold uppercase tracking-[0.2em] mb-6 border border-[var(--color-primary-light)]/20 shadow-sm backdrop-blur-md">
-                        Operating Zones
+                        Service Areas
                     </div>
                     <h1 className="text-4xl sm:text-5xl lg:text-7xl font-[family-name:var(--font-outfit)] font-bold text-white leading-[1.05] mb-6">
                         Areas We <span className="text-[var(--color-primary-light)]">Serve</span>
                     </h1>
                     <p className="text-lg lg:text-xl text-[var(--color-neutral-300)] leading-relaxed max-w-2xl mx-auto font-light">
-                        HRF Customs is highly mobile and equipped to execute luxury residential projects across Northern Utah, Southern Idaho, and Western Wyoming.
+                        Los Angeles Drywall & Framing provides professional drywall and framing services across the entire greater Los Angeles metropolitan area. No matter where your project is in LA County, we can help.
                     </p>
                 </div>
                 {/* Massive Watermark */}
                 <div className="absolute -bottom-10 left-1/2 -translate-x-1/2 text-[15rem] font-bold text-white/[0.02] select-none pointer-events-none font-[family-name:var(--font-outfit)] leading-none whitespace-nowrap">
-                    GEOGRAPHY
+                    LOS ANGELES
                 </div>
             </section>
 

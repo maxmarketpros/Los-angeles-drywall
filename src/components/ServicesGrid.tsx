@@ -4,95 +4,117 @@ import {
     BuildingIcon,
     RulerIcon,
     HammerIcon,
-    ShovelIcon,
-    ClipboardIcon,
+    CheckCircleIcon,
     ArrowRightIcon,
     DropletIcon,
-    CalculatorIcon,
-    UsersIcon,
-    MapPinIcon
+    LayersIcon,
+    HardHatIcon
 } from "./icons";
 
 const services = [
     {
-        icon: HomeIcon,
-        title: "Custom Home Builder",
+        icon: LayersIcon,
+        title: "Drywall Installation",
         description:
-            "Full project delivery from design coordination through final walkthrough. We lead every phase of your custom home build with clear accountability and direct communication.",
-        href: "/services/custom-home-builder",
-        image: "/images/portfolio/custom-home-20230710.webp",
-    },
-    {
-        icon: BuildingIcon,
-        title: "Luxury Custom Homes",
-        description:
-            "High-end residential construction with premium materials, meticulous detailing, and the level of oversight that complex builds require. Built to your exact specifications.",
-        href: "/services/luxury-custom-home-builder",
-        image: "/images/services/luxury-custom-home-builder/hero.webp",
-    },
-    {
-        icon: RulerIcon,
-        title: "Design-Build Contractor",
-        description:
-            "Seamless coordination between architects, engineers, and trade partners. We manage the design-to-build transition so nothing falls through the cracks.",
-        href: "/services/design-build-contractor",
-        image: "/images/services/design-build-contractor/grid.webp",
-    },
-    {
-        icon: ClipboardIcon,
-        title: "General Contracting",
-        description:
-            "Elite subcontractor curation, rigorous timeline enforcement, and unrelenting quality control for massive residential builds.",
-        href: "/services/general-contractor-for-custom-homes",
-        image: "/images/services/general-contractor/hero.webp",
-    },
-    {
-        icon: CalculatorIcon,
-        title: "Preconstruction Planning",
-        description:
-            "Architectural clash detection, hard-dollar estimating, brutal value-engineering, and managing permitting bureaucracy.",
-        href: "/services/preconstruction-planning",
-        image: "/images/services/preconstruction-planning/grid.webp",
-    },
-    {
-        icon: UsersIcon,
-        title: "Project Management",
-        description:
-            "Macro-level supply chain procurement, daily digital field logs, and absolute financial transparency for out-of-state remote clients.",
-        href: "/services/project-management",
-        image: "/images/services/project-management/hero.webp",
+            "Complete drywall installation for new construction and renovation projects. Board hanging, fastening, and preparation for residential and commercial spaces across Los Angeles.",
+        href: "/services/drywall-installation",
+        image: "/images/services/drywall-installation/hero.jpg",
     },
     {
         icon: HammerIcon,
-        title: "Framing Contractors",
+        title: "Drywall Repair",
         description:
-            "Heavy timber structural integrity, millimeter execution tolerances, and architectural compliance for complex custom rooflines.",
-        href: "/services/framing-contractors",
-        image: "/images/services/framing-contractor/hero.webp",
+            "Expert drywall repair for water damage, holes, cracks, and general wear. Fast turnaround to restore your walls to their original condition throughout the LA area.",
+        href: "/services/drywall-repair",
+        image: "/images/services/drywall-repair/hero.jpg",
+    },
+    {
+        icon: RulerIcon,
+        title: "Drywall Finishing",
+        description:
+            "Professional taping, mudding, and sanding to achieve smooth, paint-ready surfaces. Multiple finish levels available from standard to high-end Level 5 finishes.",
+        href: "/services/drywall-finishing",
+        image: "/images/services/drywall-finishing/hero.jpg",
     },
     {
         icon: DropletIcon,
-        title: "Concrete Services",
+        title: "Drywall Texturing",
         description:
-            "Deep foundational excellence, multi-tiered structural retaining walls, and high-psi mixes designed for volatile mountain slopes.",
-        href: "/services/concrete-services",
-        image: "/images/services/concrete-services/hero.webp",
+            "Custom wall and ceiling textures including knockdown, orange peel, skip trowel, and smooth finishes. Transform any room with professional texture application.",
+        href: "/services/drywall-texturing",
+        image: "/images/services/drywall-texturing/hero.jpg",
     },
     {
-        icon: ShovelIcon,
-        title: "Excavation Work",
+        icon: CheckCircleIcon,
+        title: "Drywall Patching",
         description:
-            "Topographical analysis, aggressive site clearing, deep utility trenching, and the critical importance of defensive grading.",
-        href: "/services/excavation-work",
-        image: "/images/services/excavation-work/hero.webp",
+            "Quick and reliable patching for small holes, nail pops, and minor drywall damage. Seamless repairs that blend perfectly with your existing walls.",
+        href: "/services/drywall-patching",
+        image: "/images/services/drywall-patching/hero.jpg",
     },
     {
-        icon: MapPinIcon,
-        title: "Home Build Consultation",
+        icon: HomeIcon,
+        title: "Wall Framing",
         description:
-            "Advisory services to vet unbuildable architectural prints, confirm raw dirt feasibility before purchase, and provide budget realities.",
-        href: "/services/home-build-consultation",
-        image: "/images/services/home-build-consultation/grid.webp",
+            "Structural wall framing for new builds, additions, and interior remodels. Precise stud layout and load-bearing wall construction built to California code.",
+        href: "/services/wall-framing",
+        image: "/images/services/wall-framing/hero.jpg",
+    },
+    {
+        icon: BuildingIcon,
+        title: "Residential Framing",
+        description:
+            "Full residential framing services including walls, floors, and roof structures. From single-family homes to multi-unit projects throughout Los Angeles County.",
+        href: "/services/residential-framing",
+        image: "/images/services/residential-framing/hero.jpg",
+    },
+    {
+        icon: BuildingIcon,
+        title: "Commercial Framing",
+        description:
+            "Commercial framing for offices, retail spaces, restaurants, and tenant improvements. Experienced with large-scale projects and tight commercial timelines.",
+        href: "/services/commercial-framing",
+        image: "/images/services/commercial-framing/hero.jpg",
+    },
+    {
+        icon: HammerIcon,
+        title: "Rough Carpentry",
+        description:
+            "Structural rough carpentry including blocking, backing, furring, and all support structures required before drywall and finish work begins.",
+        href: "/services/rough-carpentry",
+        image: "/images/services/rough-carpentry/hero.jpg",
+    },
+    {
+        icon: RulerIcon,
+        title: "Custom Framing",
+        description:
+            "Specialized framing for unique architectural features, soffits, arches, tray ceilings, and custom wall designs that require precision craftsmanship.",
+        href: "/services/custom-framing",
+        image: "/images/services/custom-framing/hero.jpg",
+    },
+    {
+        icon: DropletIcon,
+        title: "Exterior Painting",
+        description:
+            "Professional exterior painting services for homes and commercial buildings. Surface preparation, priming, and premium paint application for lasting results.",
+        href: "/services/exterior-painting",
+        image: "/images/services/exterior-painting/hero.jpg",
+    },
+    {
+        icon: LayersIcon,
+        title: "Stucco",
+        description:
+            "Traditional and synthetic stucco application and repair for Los Angeles properties. Weather-resistant finishes that protect and enhance your building exterior.",
+        href: "/services/stucco",
+        image: "/images/services/stucco/hero.jpg",
+    },
+    {
+        icon: HardHatIcon,
+        title: "Metal Framing",
+        description:
+            "Steel stud framing for commercial and residential projects requiring non-combustible or high-strength structural solutions. Code-compliant metal framing systems.",
+        href: "/services/metal-framing",
+        image: "/images/services/metal-framing/hero.jpg",
     },
 ];
 
@@ -106,13 +128,10 @@ export default function ServicesGrid({ hideHeader = false, hideButton = false }:
                             Our Expertise
                         </div>
                         <h2 className="text-4xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.1] mb-6 tracking-tight">
-                            Building With Purpose and Precision
+                            Professional Drywall and Framing Services in Los Angeles
                         </h2>
                         <p className="text-lg text-[var(--color-neutral-600)] leading-relaxed">
-                            HRF Customs delivers full-scope custom home building and general
-                            contracting services. From the foundation to the final detail, every
-                            service is delivered with owner-led oversight and a commitment to
-                            quality that our clients have come to expect.
+                            Los Angeles Drywall & Framing delivers comprehensive drywall, framing, and specialty services for residential and commercial properties. Every project is completed with licensed craftsmanship and a commitment to quality that our clients throughout Los Angeles have come to rely on.
                         </p>
                     </div>
                 )}

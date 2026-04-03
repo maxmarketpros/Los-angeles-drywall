@@ -29,10 +29,10 @@ export default function ContactCTA() {
                             </div>
 
                             <h2 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.15] mb-6">
-                                Schedule a <br />Consultation
+                                Request a Free <br />Estimate
                             </h2>
                             <p className="mt-4 text-[var(--color-neutral-600)] text-lg leading-relaxed mb-10">
-                                We are ready to bring your vision to life. Reach out to schedule a consultation with our team to discuss your ideas, timeline, and goals for your custom home.
+                                We are ready to bring your project to life. Reach out for a free estimate on your drywall, framing, or specialty project. Our team responds within 24 hours.
                             </p>
 
                             <div className="space-y-6 lg:space-y-8 bg-[var(--color-neutral-50)] p-6 sm:p-8 border border-[var(--color-neutral-200)]">
@@ -42,7 +42,7 @@ export default function ContactCTA() {
                                     </div>
                                     <div className="flex flex-col">
                                         <span className="text-[10px] uppercase font-bold text-[var(--color-neutral-500)] tracking-wider mb-0.5">Office Location</span>
-                                        <span className="text-sm text-[var(--color-neutral-900)] font-medium">8536 S 150 E, Paradise, UT 84328</span>
+                                        <span className="text-sm text-[var(--color-neutral-900)] font-medium">Los Angeles, CA</span>
                                     </div>
                                 </div>
                                 <div className="flex items-center gap-5 group">
@@ -51,7 +51,7 @@ export default function ContactCTA() {
                                     </div>
                                     <div className="flex flex-col">
                                         <span className="text-[10px] uppercase font-bold text-[var(--color-neutral-500)] tracking-wider mb-0.5">Business Hours</span>
-                                        <span className="text-sm text-[var(--color-neutral-900)] font-medium">Mon-Sat: 8AM — 6PM</span>
+                                        <span className="text-sm text-[var(--color-neutral-900)] font-medium">Mon-Fri: 8AM to 6PM, Sun: Open</span>
                                     </div>
                                 </div>
                                 <div className="flex items-center gap-5 group">
@@ -60,8 +60,8 @@ export default function ContactCTA() {
                                     </div>
                                     <div className="flex flex-col">
                                         <span className="text-[10px] uppercase font-bold text-[var(--color-neutral-500)] tracking-wider mb-0.5">Call Us</span>
-                                        <a href="tel:4357600279" className="text-sm text-[var(--color-neutral-900)] font-bold hover:text-[var(--color-primary)] transition-colors tracking-wide">
-                                            (435) 760 0279
+                                        <a href="tel:3107309832" className="text-sm text-[var(--color-neutral-900)] font-bold hover:text-[var(--color-primary)] transition-colors tracking-wide">
+                                            (310) 730-9832
                                         </a>
                                     </div>
                                 </div>
@@ -71,8 +71,8 @@ export default function ContactCTA() {
                                     </div>
                                     <div className="flex flex-col">
                                         <span className="text-[10px] uppercase font-bold text-[var(--color-neutral-500)] tracking-wider mb-0.5">Email Us</span>
-                                        <a href="mailto:highridgeframing@gmail.com" className="text-sm text-[var(--color-neutral-900)] font-bold hover:text-[var(--color-primary)] transition-colors">
-                                            highridgeframing@gmail.com
+                                        <a href="mailto:sales@losangelesdrywallandframing.com" className="text-sm text-[var(--color-neutral-900)] font-bold hover:text-[var(--color-primary)] transition-colors">
+                                            sales@losangelesdrywallandframing.com
                                         </a>
                                     </div>
                                 </div>
@@ -82,14 +82,14 @@ export default function ContactCTA() {
                         {/* Form Column */}
                         <div className="lg:col-span-7 flex flex-col">
                             <h3 className="text-2xl font-bold font-[family-name:var(--font-outfit)] text-[var(--color-neutral-900)] mb-6 border-b border-[var(--color-neutral-200)] pb-4 mt-8 lg:mt-0">
-                                Project Intake Form
+                                Request Your Free Estimate
                             </h3>
                             <div className="bg-[var(--color-neutral-50)] border border-[var(--color-neutral-200)] p-0 sm:p-2 lg:p-4 w-full flex-grow min-h-[850px] relative rounded-md overflow-hidden">
                                 <iframe
                                     loading="lazy"
-                                    src="https://api.leadconnectorhq.com/widget/form/EBindBDKViBbdpeH85TF"
+                                    src="https://api.leadconnectorhq.com/widget/form/sereKGCghy5WXVMS60mT"
                                     style={{ width: "100%", height: "100%", border: "none" }}
-                                    id="inline-EBindBDKViBbdpeH85TF"
+                                    id="inline-sereKGCghy5WXVMS60mT"
                                     data-layout="{'id':'INLINE'}"
                                     data-trigger-type="alwaysShow"
                                     data-trigger-value=""
@@ -98,9 +98,9 @@ export default function ContactCTA() {
                                     data-deactivation-type="neverDeactivate"
                                     data-deactivation-value=""
                                     data-form-name="WebSite Form Template"
-                                    data-height="850"
-                                    data-layout-iframe-id="inline-EBindBDKViBbdpeH85TF"
-                                    data-form-id="EBindBDKViBbdpeH85TF"
+                                    data-height="669"
+                                    data-layout-iframe-id="inline-sereKGCghy5WXVMS60mT"
+                                    data-form-id="sereKGCghy5WXVMS60mT"
                                     title="WebSite Form Template"
                                     className="absolute inset-0"
                                 >

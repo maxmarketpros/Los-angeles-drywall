@@ -1,42 +1,42 @@
 import {
-    MountainSnowIcon,
-    ThermometerIcon,
-    DropletIcon,
-    LayersIcon,
+    ShieldIcon,
+    HardHatIcon,
+    BuildingIcon,
+    ClipboardIcon,
     TruckIcon,
     ArrowRightIcon,
 } from "./icons";
 
 const conditions = [
     {
-        icon: MountainSnowIcon,
-        title: "Snow Loads & High Altitude",
+        icon: ShieldIcon,
+        title: "California Seismic Standards",
         description:
-            "We design for significant mountain snow loads and schedule construction around seasonal access windows specifically for high-elevation builds.",
+            "All framing and drywall work is completed to meet California seismic building codes. We understand the structural reinforcement requirements specific to earthquake-prone regions.",
     },
     {
-        icon: ThermometerIcon,
-        title: "Rigorous Freeze/Thaw Cycles",
+        icon: HardHatIcon,
+        title: "Fire-Rated Assemblies",
         description:
-            "Our timelines account for Cache Valley's extreme temperature swings, prioritizing optimal pour windows to prevent long-term foundation damage.",
+            "Los Angeles fire codes require specific wall and ceiling assemblies in many applications. We install fire-rated drywall and framing systems that meet or exceed local requirements.",
     },
     {
-        icon: DropletIcon,
-        title: "Drainage & Valley Grading",
+        icon: BuildingIcon,
+        title: "Historic and Older Properties",
         description:
-            "Water management is paramount in the foothills. Our pre-construction site work guarantees your home's integrity against massive spring runoffs.",
+            "Many LA neighborhoods feature older homes and historic structures that need specialized drywall and framing approaches. We work with existing conditions while bringing properties up to current standards.",
     },
     {
-        icon: LayersIcon,
-        title: "Complex Soils & Foundations",
+        icon: ClipboardIcon,
+        title: "LA Permitting and Inspections",
         description:
-            "Soil volatility varies drastically from Logan to Star Valley. We strictly partner with local geotechnical engineers to match foundations to reality.",
+            "We navigate the City of Los Angeles and county permitting process efficiently. Our work is completed to pass inspections the first time, keeping your project on schedule.",
     },
     {
         icon: TruckIcon,
-        title: "Rural Logistics & Access",
+        title: "Urban Job Site Logistics",
         description:
-            "Remote lots demand intense logistical planning. We coordinate heavy machinery staging and material deliveries to keep off-grid projects efficient.",
+            "Working in dense Los Angeles neighborhoods requires careful coordination of materials, equipment, and parking. We plan every delivery and stage materials efficiently to minimize disruption.",
     },
 ];
 
@@ -49,15 +49,15 @@ export default function LocalKnowledge() {
                     {/* Content Side */}
                     <div>
                         <div className="inline-flex items-center px-4 py-1.5 bg-[var(--color-primary)]/10 text-[var(--color-primary)] text-xs font-bold uppercase tracking-[0.2em] rounded mb-6 w-max border border-[var(--color-primary)]/20">
-                            Regional Expertise
+                            Local Expertise
                         </div>
 
                         <h2 className="text-3xl lg:text-5xl font-[family-name:var(--font-outfit)] font-bold text-[var(--color-neutral-900)] leading-[1.15] mb-6">
-                            Engineered For The Northern Rockies
+                            Built for Los Angeles Construction Standards
                         </h2>
 
                         <p className="text-[var(--color-neutral-600)] text-lg leading-relaxed mb-10">
-                            Building a luxury custom home in Northern Utah or Western Wyoming is completely unlike building in milder climates. The extreme conditions demand a contractor who knows the terrain intimately. HRF Customs has spent over 15 years mastering this specific geographic region.
+                            Working on residential and commercial properties in Los Angeles requires a contractor who understands the unique building requirements of Southern California. Los Angeles Drywall & Framing brings deep local knowledge to every project across the metro area.
                         </p>
 
                         <div className="space-y-6 lg:space-y-8">
@@ -90,7 +90,7 @@ export default function LocalKnowledge() {
                                     Service Area Map
                                 </h4>
                                 <p className="text-xs text-[var(--color-neutral-500)] mt-1 font-medium tracking-wide">
-                                    HQ: PARADISE, UT • SERVING UT, ID, WY
+                                    LOS ANGELES, CA - SERVING THE GREATER LA METRO
                                 </p>
                             </div>
                             <a href="/contact" className="text-xs font-bold text-[var(--color-primary-light)] flex items-center gap-1.5 uppercase tracking-wider group">
@@ -100,9 +100,8 @@ export default function LocalKnowledge() {
 
                         {/* Map Iframe */}
                         <div className="flex-1 relative w-full h-full min-h-[400px]">
-                            {/* We use a Google Maps iframe focused on Paradise/Cache Valley region */}
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d382103.4907727376!2d-111.83407635!3d41.83984025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus&zoom=8"
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d423286.27405745!2d-118.2437!3d34.0522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus&zoom=10"
                                 width="100%"
                                 height="100%"
                                 style={{ border: 0 }}
@@ -114,7 +113,7 @@ export default function LocalKnowledge() {
 
                             {/* Floating Map Overlay Tags */}
                             <div className="absolute bottom-6 left-6 right-6 pointer-events-none flex flex-wrap gap-2">
-                                {["Cache Valley", "Logan", "Paradise", "Bear Lake", "Star Valley", "Preston"].map(area => (
+                                {["Los Angeles", "Beverly Hills", "Santa Monica", "Pasadena", "Glendale", "Burbank"].map(area => (
                                     <span key={area} className="bg-white/90 backdrop-blur text-[var(--color-neutral-800)] text-[10px] font-bold uppercase tracking-widest py-1.5 px-3 rounded shadow-sm border border-white">
                                         {area}
                                     </span>

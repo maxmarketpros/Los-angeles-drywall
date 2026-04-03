@@ -4,8 +4,8 @@ import ContactCTA from "@/components/ContactCTA";
 import ServicesGrid from "@/components/ServicesGrid";
 
 export const metadata = {
-    title: "Our Custom Home Building Services | HRF Customs",
-    description: "Explore the full suite of luxury custom home building, general contracting, and intensive pre-construction services offered by HRF Customs.",
+    title: "Our Drywall & Framing Services | Los Angeles Drywall & Framing",
+    description: "Explore the full range of professional drywall and framing services offered by Los Angeles Drywall & Framing. Residential and commercial projects across the LA metro.",
 };
 
 export default function ServicesPage() {
@@ -27,10 +27,10 @@ export default function ServicesPage() {
                         Our Expertise
                     </div>
                     <h1 className="text-4xl sm:text-5xl lg:text-7xl font-[family-name:var(--font-outfit)] font-bold text-white leading-[1.05] mb-6">
-                        Uncompromising <span className="text-[var(--color-primary-light)]">Capabilities</span>
+                        Drywall & Framing <span className="text-[var(--color-primary-light)]">Services</span>
                     </h1>
                     <p className="text-lg lg:text-xl text-[var(--color-neutral-300)] leading-relaxed max-w-2xl mx-auto font-light">
-                        From monumental custom home builds requiring absolute precision, to specialized heavy-duty framing and concrete services, HRF Customs executes at the highest level in the industry.
+                        From residential remodels to large-scale commercial buildouts, Los Angeles Drywall & Framing delivers professional drywall installation, framing, and finishing services across the greater Los Angeles metro area.
                     </p>
                 </div>
                 {/* Massive Watermark */}
@@ -39,7 +39,7 @@ export default function ServicesPage() {
                 </div>
             </section>
 
-            {/* Render the Grid but without the redundant button or duplicate title */}
+            {/* Render the Grid */}
             <ServicesGrid hideHeader={true} hideButton={true} />
 
             <ContactCTA />

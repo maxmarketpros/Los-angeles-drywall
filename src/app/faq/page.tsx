@@ -4,99 +4,86 @@ import ContactCTA from "@/components/ContactCTA";
 import { PlusIcon } from "@/components/icons";
 
 export const metadata = {
-    title: "Frequently Asked Questions | HRF Customs",
-    description: "Get answers about building luxury custom homes in Northern Utah, Cache Valley, and Western Wyoming. Timelines, costs, pre-construction, and our proprietary process.",
+    title: "FAQ | Los Angeles Drywall & Framing | Drywall & Framing Questions",
+    description: "Get answers to common questions about drywall installation, framing services, pricing, timelines, service areas, and licensing from Los Angeles Drywall & Framing.",
 };
 
 const faqCategories = [
     {
-        title: "Building Process",
+        title: "Services & Capabilities",
         faqs: [
             {
-                question: "How long does it typically take to build a custom home in Northern Utah?",
-                answer: "The timeline for a luxury custom home build heavily depends on the complexity of the architecture, site conditions, and weather. Generally, our projects take anywhere from 12 to 24 months. At HRF Customs, we establish an ironclad timeline during the pre-construction phase so you know exactly what to expect before we break ground."
+                question: "What drywall and framing services does Los Angeles Drywall & Framing offer?",
+                answer: "We provide a full range of drywall and framing services including wood stud framing, metal stud framing, drywall hanging, taping, mudding, and finishing (all levels from Level 1 through Level 5), ceiling installation, bulkheads and soffits, soundproofing assemblies, fire-rated wall assemblies, and drywall repairs and patching. We handle both residential and commercial projects across the greater Los Angeles metro area."
             },
             {
-                question: "Do you build year-round, even in extreme winters?",
-                answer: "Yes. HRF Customs specializes in high-altitude and extreme-weather builds. We utilize massive ground heaters, structural tarping, and immense logistical planning to safely pour concrete and frame timbers even in the dead of winter in places like Star Valley or Bear Lake."
+                question: "Do you handle both residential and commercial projects?",
+                answer: "Yes. Los Angeles Drywall & Framing serves homeowners, general contractors, property managers, and commercial developers. Our residential work includes new construction framing, home additions, remodels, and drywall repairs. On the commercial side, we handle tenant improvements, office buildouts, retail spaces, multi-family housing, and light commercial construction. Every project receives the same level of professionalism and attention to quality."
             },
             {
-                question: "What level of detail goes into pre-construction planning?",
-                answer: "Pre-construction is the most critical phase for HRF Customs. We conduct strict reviews of your building site, conceptual plans, engineering requirements, and local zoning. This allows us to establish a highly accurate budget and timeline, mitigating surprises during actual construction."
+                question: "Can you match existing textures on drywall repairs?",
+                answer: "Absolutely. Our experienced finishers are skilled at matching existing wall and ceiling textures including orange peel, knockdown, skip trowel, smooth finish, and popcorn textures. We take great care to blend repair areas seamlessly with the surrounding surfaces so that the finished result is virtually invisible."
             },
             {
-                question: "Do you have in-house architects or do I need my own?",
-                answer: "We are a custom home builder and General Contractor, meaning we execute the physical build. We have a very tight network of elite architects and drafters across Utah and Wyoming that we can recommend. If you already have architectural plans, we are fully equipped to review them and begin value engineering immediately."
-            },
-            {
-                question: "Can I make changes to the design once construction has started?",
-                answer: "While we highly prioritize locking in decisions during pre-construction to avoid costly delays, we understand that true custom homes evolve. We use a formalized Change Order system that outlines the exact schedule impact and cost of any requested design changes before the work begins."
+                question: "Do you install soundproof or fire-rated walls?",
+                answer: "Yes. We are experienced in constructing fire-rated wall and ceiling assemblies as well as sound-rated (STC) partitions. These specialized assemblies are common in multi-family residential buildings, commercial spaces, and certain areas of single-family homes. We install the appropriate framing configurations, insulation, and drywall layers required to meet the specified ratings and pass inspection."
             }
         ]
     },
     {
-        title: "Costs & Contracts",
+        title: "Pricing & Estimates",
         faqs: [
             {
-                question: "How does HRF Customs handle budgets and unexpected change orders?",
-                answer: "Transparency is a core pillar. Every custom home project begins with a deeply detailed, line-item budget that you review and approve. If a change order becomes necessary (or is requested by you), we execute a strict protocol detailing the written scope, the exact cost impact, and a signature requirement before proceeding."
+                question: "How much does drywall installation cost in Los Angeles?",
+                answer: "Drywall installation costs vary depending on the scope of work, the type of drywall being used (standard, moisture-resistant, fire-rated, soundboard), the level of finish required, ceiling heights, and site accessibility. Rather than quoting a generic per-square-foot rate, we provide a detailed written estimate after assessing your specific project. This ensures you get an accurate price based on the actual work involved, not a rough guess."
             },
             {
-                question: "What is the average cost to build a custom home per square foot?",
-                answer: "Cost per square foot is a highly variable metric that depends entirely on your architectural choices, the topography of the land (e.g., steep mountain slopes in Cache Valley require extensive retaining walls), and the level of interior finishes. During our initial consultation, we can provide realistic ranges based on the scope of your vision."
+                question: "Do you offer free estimates?",
+                answer: "Yes. We provide free on-site estimates for drywall and framing projects throughout the Los Angeles metro area. One of our project leads will visit your location, review the scope of work, take measurements, and provide a detailed written estimate that covers materials, labor, and a projected timeline. There is no obligation and no pressure."
             },
             {
-                question: "Do you offer value engineering?",
-                answer: "Absolutely. Our goal is to protect your architectural vision while protecting your capital. Because we have deep, hands-on experience in heavy trades, we often identify structural efficiencies or alternative materials during the design phase that can save money without compromising the aesthetic."
-            },
-            {
-                question: "What type of contract do you use?",
-                answer: "Depending on the scope of the project, we typically utilize a Cost-Plus or a Guaranteed Maximum Price (GMP) contract structure. Cost-Plus offers ultimate transparency on material and labor costs, while GMP provides a safety ceiling for your total budget. We will discuss which framework best suits your build during consultation."
-            },
-            {
-                question: "How are payments structured throughout the build?",
-                answer: "Payments are structured as regular draw requests tied directly to specific milestones and completed phases of work. You and your lender will receive deeply detailed invoices showing exactly what materials and labor are being billed for during that period."
+                question: "Are there any hidden fees or surprise charges?",
+                answer: "No. Transparency is a core principle at Los Angeles Drywall & Framing. Our written estimates clearly outline every line item. If the scope of work changes during the project due to unforeseen conditions or client requests, we discuss the impact on cost and timeline with you before proceeding. You will never receive a surprise bill from us."
             }
         ]
     },
     {
-        title: "Service Areas",
+        title: "Timelines & Scheduling",
         faqs: [
             {
-                question: "How far does HRF Customs travel from Paradise, UT for custom home projects?",
-                answer: "Our primary service areas include Northern Utah (Cache Valley, Logan, Weber County), Southern Idaho (Bear Lake, Preston, Soda Springs), and Western Wyoming (Star Valley, Jackson Hole region). Because we are highly mobile and own our fleet of equipment, we routinely handle massive builds across these regions."
+                question: "How long does a typical drywall or framing project take?",
+                answer: "Project timelines depend on the size and complexity of the work. A standard room addition framing job might take a few days, while a full-home drywall installation with Level 5 finishing could take one to two weeks. Larger commercial projects can run several weeks or more. During our estimate process, we provide a clear projected timeline so you know exactly what to expect."
             },
             {
-                question: "Does HRF Customs handle the full build or just specific framing phases?",
-                answer: "We are an apex General Contractor managing full-lifecycle project delivery—from raw dirt to the final coat of paint. However, because of our roots, some clients and developers do retain us strictly for our heavy-duty framing or mass excavation capabilities."
+                question: "How quickly can you start a new project?",
+                answer: "Our scheduling depends on current project volume, but we typically can begin new projects within one to two weeks of a signed agreement. For urgent jobs or time-sensitive commercial work, we can often accommodate faster start dates. Contact us to discuss your timeline and we will do our best to work within your schedule."
             },
             {
-                question: "How do you handle out-of-state clients building secondary homes?",
-                answer: "We specialize in this. A large portion of our clients are out-of-state executives executing a luxury build in Utah or Wyoming. We utilize high-resolution digital briefings, constant photo updates, and ironclad operational schedules to completely insulate you from localized friction."
+                question: "Do you work on weekends or after hours?",
+                answer: "Our standard business hours are Monday through Friday, 8:00 AM to 6:00 PM, and we are also open on Sundays. For commercial projects with specific scheduling requirements such as after-hours or weekend work, we can arrange accommodations. Please discuss your scheduling needs during the consultation and we will provide options."
             }
         ]
     },
     {
-        title: "Quality & Assurance",
+        title: "Service Areas & Licensing",
         faqs: [
             {
-                question: "How do you ensure the quality of your subcontractors?",
-                answer: "A builder is only as good as their trades. At HRF Customs, we do not throw bids out to the cheapest subcontractor. We maintain a very tight, highly vetted roster of elite craftsmen who understand our intense standards for quality and job site cleanliness."
+                question: "What areas do you serve in Los Angeles?",
+                answer: "We serve the entire greater Los Angeles metropolitan area including Hollywood, Beverly Hills, Santa Monica, Burbank, Glendale, Pasadena, the San Fernando Valley, West LA, Downtown LA, South Bay, Culver City, Inglewood, Westchester, and all surrounding communities in LA County. If you are unsure whether your location is within our service area, give us a call at (310) 730-9832."
             },
             {
-                question: "Do you offer a warranty on your custom homes?",
-                answer: "Yes, we stand behind our builds. We provide a comprehensive 1-year builder's warranty on all craftsmanship, alongside standard manufacturer warranties on installed components (roofing, HVAC, windows, etc.). Our relationship with clients does not end the day we hand over the keys."
+                question: "Are you licensed and insured?",
+                answer: "Yes. Los Angeles Drywall & Framing holds California Contractor License #1141917 and carries full general liability insurance and workers compensation coverage. We are fully licensed to perform drywall and framing work across the state of California. You can verify our license status through the California Contractors State License Board (CSLB)."
             },
             {
-                question: "Who is managing the job site on a daily basis?",
-                answer: "Unlike volume builders who overload superintendents, HRF Customs guarantees direct ownership oversight on every project. A dedicated, highly experienced project manager will be on-site aggressively coordinating trades, managing quality control hold-points, and communicating with you directly."
+                question: "Do you pull permits for the work?",
+                answer: "When permits are required by local building codes, we handle the permitting process as part of the project. Certain types of framing work, structural modifications, and fire-rated assemblies require permits and inspections. We are familiar with the permitting requirements across LA County municipalities and ensure that all work is performed in compliance with applicable building codes."
             }
         ]
     }
 ];
 
 export default function FAQPage() {
-    // Flatten FAQs for JSON-LD Schema
     const allFaqs = faqCategories.flatMap(category => category.faqs);
 
     const faqJsonLd = {
@@ -131,18 +118,18 @@ export default function FAQPage() {
 
                 <div className="page-container relative z-10 text-center max-w-4xl mx-auto">
                     <div className="inline-flex items-center px-4 py-1.5 bg-[var(--color-primary-light)]/10 text-[var(--color-primary-light)] text-[10px] sm:text-xs font-bold uppercase tracking-[0.2em] mb-6 border border-[var(--color-primary-light)]/20 shadow-sm backdrop-blur-md">
-                        Institutional Knowledge
+                        Common Questions
                     </div>
                     <h1 className="text-4xl sm:text-5xl lg:text-7xl font-[family-name:var(--font-outfit)] font-bold text-white leading-[1.05] mb-6">
                         Frequently Asked Questions
                     </h1>
                     <p className="text-lg lg:text-xl text-[var(--color-neutral-300)] leading-relaxed max-w-2xl mx-auto font-light">
-                        Clear, transparent answers regarding custom home construction, budgeting, and our operational capabilities across Utah, Idaho, and Wyoming.
+                        Straightforward answers about our drywall and framing services, pricing, timelines, licensing, and the areas we serve across Los Angeles.
                     </p>
                 </div>
                 {/* Massive Watermark */}
                 <div className="absolute -bottom-10 left-1/2 -translate-x-1/2 text-[15rem] font-bold text-white/[0.02] select-none pointer-events-none font-[family-name:var(--font-outfit)] leading-none whitespace-nowrap">
-                    KNOWLEDGE
+                    FAQ
                 </div>
             </section>
 

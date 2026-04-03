@@ -1,4 +1,4 @@
-import { MapPinIcon, ClockIcon, PhoneIcon, EmailIcon } from "./icons";
+import { MapPinIcon, ClockIcon, PhoneIcon } from "./icons";
 
 export default function TrustBar() {
     return (
@@ -12,7 +12,7 @@ export default function TrustBar() {
                             <MapPinIcon size={20} />
                         </div>
                         <div className="text-sm font-medium tracking-wide">
-                            8536 S 150 E, Paradise, UT
+                            Los Angeles, CA
                         </div>
                     </div>
 
@@ -25,7 +25,7 @@ export default function TrustBar() {
                             <ClockIcon size={20} />
                         </div>
                         <div className="text-sm font-medium tracking-wide">
-                            Mon-Sat: 8 AM - 6 PM
+                            Mon-Fri: 8AM to 6PM | Sun: Open
                         </div>
                     </div>
 
@@ -35,11 +35,11 @@ export default function TrustBar() {
                     {/* Phone Container */}
                     <div className="flex flex-row items-center gap-6 w-full md:w-auto justify-center md:justify-start">
                         <a
-                            href="tel:4357600279"
+                            href="tel:3107309832"
                             className="flex items-center gap-2 text-sm font-medium tracking-wide hover:text-[var(--color-primary-light)] transition-colors"
                         >
                             <PhoneIcon size={20} className="text-[var(--color-primary-light)]" />
-                            Call (435) 760 0279
+                            Call (310) 730-9832
                         </a>
                     </div>
 
