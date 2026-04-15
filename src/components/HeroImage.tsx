@@ -76,8 +76,8 @@ export default function HeroImage() {
 
                     <div className="mt-10 md:mt-12 w-full grid grid-cols-3 gap-2 md:gap-8 opacity-90 mx-auto max-w-2xl" style={{ color: "#ffffff" }}>
                         <div className="flex flex-col items-center text-center">
-                            <span className="text-2xl md:text-3xl font-bold font-[family-name:var(--font-outfit)]">Licensed</span>
-                            <span className="text-[9px] md:text-xs uppercase tracking-wider mt-1 opacity-80">CA<br className="md:hidden" /> Contractor</span>
+                            <span className="text-2xl md:text-3xl font-bold font-[family-name:var(--font-outfit)]">#1141917</span>
+                            <span className="text-[9px] md:text-xs uppercase tracking-wider mt-1 opacity-80">CA<br className="md:hidden" /> License</span>
                         </div>
                         <div className="flex flex-col items-center text-center relative">
                             {/* Left Divider */}
