@@ -34,7 +34,7 @@ const services = [
         description:
             "Professional taping, mudding, and sanding to achieve smooth, paint-ready surfaces. Multiple finish levels available from standard to high-end Level 5 finishes.",
         href: "/services/drywall-finishing",
-        image: "/images/services/drywall-finishing/hero.jpg",
+        image: "/images/services/drywall-finishing/detail.jpg",
     },
     {
         icon: DropletIcon,

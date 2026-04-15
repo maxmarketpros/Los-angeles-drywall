@@ -42,7 +42,7 @@ export default function QualityStandard() {
                             {/* Image - The Transparent PNG */}
                             <div className="relative w-full aspect-[4/3] max-w-[800px] mx-auto z-10 transition-transform duration-700 hover:scale-[1.03]">
                                 <Image
-                                    src="/images/services/drywall-finishing/hero.jpg"
+                                    src="/images/services/drywall-finishing/result.jpg"
                                     alt="Professional drywall finishing by Los Angeles Drywall & Framing"
                                     fill
                                     className="object-contain drop-shadow-[0_25px_35px_rgba(0,0,0,0.25)]"
