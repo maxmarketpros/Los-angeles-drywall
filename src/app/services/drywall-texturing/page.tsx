@@ -15,10 +15,21 @@ import {
     BuildingIcon,
     ShovelIcon,
 } from "@/components/icons";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
+import ServiceSchema from "@/components/ServiceSchema";
+import FAQSchema from "@/components/FAQSchema";
 
 export const metadata: Metadata = {
     title: "Drywall Texturing in Los Angeles, CA | Los Angeles Drywall & Framing",
     description: "Custom drywall texturing in Los Angeles, CA including knockdown, orange peel, skip trowel, smooth finish, and popcorn ceiling removal. Call (310) 730-9832 for a free estimate.",
+    openGraph: {
+        images: [{
+            url: "/images/services/drywall-texturing/hero.jpg",
+            width: 1200,
+            height: 630,
+            alt: "Drywall Texturing in Los Angeles",
+        }],
+    },
 };
 
 const processSteps = [
@@ -70,6 +81,18 @@ const faqs = [
 export default function DrywallTexturingPage() {
     return (
         <main className="min-h-screen bg-white selection:bg-[var(--color-primary)] selection:text-white pb-20 md:pb-0">
+            <BreadcrumbSchema items={[
+                { name: "Home", href: "/" },
+                { name: "Services", href: "/services" },
+                { name: "Drywall Texturing", href: "/services/drywall-texturing" },
+            ]} />
+            <ServiceSchema
+                name="Drywall Texturing in Los Angeles, CA"
+                description="Custom drywall texturing in Los Angeles, CA including knockdown, orange peel, skip trowel, smooth finish, and popcorn ceiling removal."
+                url="/services/drywall-texturing"
+                image="/images/services/drywall-texturing/hero.jpg"
+            />
+            <FAQSchema faqs={faqs} />
             <Header />
 
             {/* 1. HERO SECTION */}
@@ -79,6 +102,8 @@ export default function DrywallTexturingPage() {
                     alt="Custom drywall texturing being applied in a Los Angeles property"
                     fill
                     className="object-cover object-center"
+
+                    sizes="100vw"
                     priority
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-[#020617]/95 via-[#020617]/80 to-[#020617]/30"></div>

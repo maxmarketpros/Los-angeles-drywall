@@ -13,11 +13,22 @@ import {
     ClipboardIcon,
     HammerIcon,
 } from "@/components/icons";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
+import ServiceSchema from "@/components/ServiceSchema";
+import FAQSchema from "@/components/FAQSchema";
 
 export const metadata: Metadata = {
     title: "Commercial Framing in Los Angeles, CA | Los Angeles Drywall & Framing",
     description:
         "Commercial framing in Los Angeles, CA for offices, retail, restaurants, and tenant improvements. Metal and wood framing. CA License #1141917. Call (310) 730-9832.",
+    openGraph: {
+        images: [{
+            url: "/images/services/commercial-framing/hero.jpg",
+            width: 1200,
+            height: 630,
+            alt: "Commercial Framing in Los Angeles",
+        }],
+    },
 };
 
 const processSteps = [
@@ -74,6 +85,18 @@ const faqs = [
 export default function CommercialFramingPage() {
     return (
         <main className="min-h-screen bg-white selection:bg-[var(--color-primary)] selection:text-white pb-20 md:pb-0">
+            <BreadcrumbSchema items={[
+                { name: "Home", href: "/" },
+                { name: "Services", href: "/services" },
+                { name: "Commercial Framing", href: "/services/commercial-framing" },
+            ]} />
+            <ServiceSchema
+                name="Commercial Framing in Los Angeles, CA"
+                description="Commercial framing in Los Angeles, CA for offices, retail, restaurants, and tenant improvements. Metal and wood framing."
+                url="/services/commercial-framing"
+                image="/images/services/commercial-framing/hero.jpg"
+            />
+            <FAQSchema faqs={faqs} />
             <Header />
 
             {/* HERO SECTION */}
@@ -83,6 +106,8 @@ export default function CommercialFramingPage() {
                     alt="Commercial framing project in Los Angeles"
                     fill
                     className="object-cover"
+
+                    sizes="100vw"
                     priority
                     quality={80}
                 />

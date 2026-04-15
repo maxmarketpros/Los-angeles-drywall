@@ -15,10 +15,21 @@ import {
     DropletIcon,
     SearchIcon,
 } from "@/components/icons";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
+import ServiceSchema from "@/components/ServiceSchema";
+import FAQSchema from "@/components/FAQSchema";
 
 export const metadata: Metadata = {
     title: "Drywall Repair in Los Angeles, CA | Los Angeles Drywall & Framing",
     description: "Expert drywall repair in Los Angeles, CA for water damage, holes, cracks, and settling damage. Licensed contractor serving residential and commercial properties. Call (310) 730-9832.",
+    openGraph: {
+        images: [{
+            url: "/images/services/drywall-repair/hero.jpg",
+            width: 1200,
+            height: 630,
+            alt: "Drywall Repair in Los Angeles",
+        }],
+    },
 };
 
 const processSteps = [
@@ -70,6 +81,18 @@ const faqs = [
 export default function DrywallRepairPage() {
     return (
         <main className="min-h-screen bg-white selection:bg-[var(--color-primary)] selection:text-white pb-20 md:pb-0">
+            <BreadcrumbSchema items={[
+                { name: "Home", href: "/" },
+                { name: "Services", href: "/services" },
+                { name: "Drywall Repair", href: "/services/drywall-repair" },
+            ]} />
+            <ServiceSchema
+                name="Drywall Repair in Los Angeles, CA"
+                description="Expert drywall repair in Los Angeles, CA for water damage, holes, cracks, and settling damage. Licensed contractor serving residential and commercial properties."
+                url="/services/drywall-repair"
+                image="/images/services/drywall-repair/hero.jpg"
+            />
+            <FAQSchema faqs={faqs} />
             <Header />
 
             {/* 1. HERO SECTION */}
@@ -79,6 +102,8 @@ export default function DrywallRepairPage() {
                     alt="Drywall repair work being performed in a Los Angeles home"
                     fill
                     className="object-cover object-center"
+
+                    sizes="100vw"
                     priority
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-[#020617]/95 via-[#020617]/80 to-[#020617]/30"></div>

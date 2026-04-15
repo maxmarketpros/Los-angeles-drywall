@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import ContactCTA from "@/components/ContactCTA";
 import ProcessTimeline from "@/components/ProcessTimeline";
 import Image from "next/image";
@@ -13,6 +14,10 @@ export const metadata = {
 export default function ProcessPage() {
     return (
         <main className="min-h-screen bg-white selection:bg-[var(--color-primary)] selection:text-white">
+            <BreadcrumbSchema items={[
+                { name: "Home", href: "/" },
+                { name: "Our Process", href: "/process" },
+            ]} />
             <Header />
 
             {/* Dark Mode Hero */}

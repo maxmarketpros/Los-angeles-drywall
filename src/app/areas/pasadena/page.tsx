@@ -3,6 +3,8 @@ import { Metadata } from 'next';
 import Footer from "@/components/Footer";
 import ContactCTA from "@/components/ContactCTA";
 import ServicesGrid from "@/components/ServicesGrid";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
+import FAQSchema from "@/components/FAQSchema";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -22,6 +24,14 @@ import {
 export const metadata: Metadata = {
     title: "Drywall Contractor in Pasadena, CA | Los Angeles Drywall & Framing",
     description: "Licensed drywall contractor serving Pasadena, CA. Expert drywall and framing for Craftsman homes, historic properties, and modern renovations in Pasadena, South Pasadena, and Altadena. CA #1141917. Call (310) 730-9832.",
+    openGraph: {
+        images: [{
+            url: "/images/areas/pasadena/hero.jpg",
+            width: 1200,
+            height: 630,
+            alt: "Drywall and framing services in Pasadena, CA",
+        }],
+    },
 };
 
 const regionalServices = [
@@ -85,6 +95,12 @@ export default function PasadenaArea() {
     return (
         <main className="min-h-screen bg-white selection:bg-[var(--color-primary)] selection:text-white pb-20 md:pb-0">
             <Header />
+            <BreadcrumbSchema items={[
+                { name: "Home", href: "/" },
+                { name: "Areas We Serve", href: "/areas" },
+                { name: "Pasadena", href: "/areas/pasadena" },
+            ]} />
+            <FAQSchema faqs={faqs} />
 
             {/* HERO */}
             <section className="relative w-full min-h-[70vh] flex items-center pt-36 pb-24 lg:pt-40 lg:pb-0">
@@ -93,6 +109,8 @@ export default function PasadenaArea() {
                     alt="Professional drywall contractor serving Pasadena, California and surrounding areas"
                     fill
                     className="object-cover object-center"
+
+                    sizes="100vw"
                     priority
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-[#020617]/95 via-[#020617]/80 to-[#020617]/30"></div>

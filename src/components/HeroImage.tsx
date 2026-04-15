@@ -8,6 +8,7 @@ export default function HeroImage() {
                 src="/images/hero/hero.jpg"
                 alt="Professional drywall and framing services in Los Angeles"
                 fill
+                sizes="100vw"
                 className="object-cover scale-105"
                 style={{ transformOrigin: "center" }}
                 priority

@@ -13,11 +13,22 @@ import {
     HardHatIcon,
     HammerIcon,
 } from "@/components/icons";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
+import ServiceSchema from "@/components/ServiceSchema";
+import FAQSchema from "@/components/FAQSchema";
 
 export const metadata: Metadata = {
     title: "Residential Framing in Los Angeles, CA | Los Angeles Drywall & Framing",
     description:
         "Expert residential framing in Los Angeles, CA for single-family homes, ADUs, additions, and multi-unit projects. CA License #1141917. Call (310) 730-9832 for a free estimate.",
+    openGraph: {
+        images: [{
+            url: "/images/services/residential-framing/hero.jpg",
+            width: 1200,
+            height: 630,
+            alt: "Residential Framing in Los Angeles",
+        }],
+    },
 };
 
 const processSteps = [
@@ -74,6 +85,18 @@ const faqs = [
 export default function ResidentialFramingPage() {
     return (
         <main className="min-h-screen bg-white selection:bg-[var(--color-primary)] selection:text-white pb-20 md:pb-0">
+            <BreadcrumbSchema items={[
+                { name: "Home", href: "/" },
+                { name: "Services", href: "/services" },
+                { name: "Residential Framing", href: "/services/residential-framing" },
+            ]} />
+            <ServiceSchema
+                name="Residential Framing in Los Angeles, CA"
+                description="Expert residential framing in Los Angeles, CA for single-family homes, ADUs, additions, and multi-unit projects."
+                url="/services/residential-framing"
+                image="/images/services/residential-framing/hero.jpg"
+            />
+            <FAQSchema faqs={faqs} />
             <Header />
 
             {/* HERO SECTION */}
@@ -83,6 +106,8 @@ export default function ResidentialFramingPage() {
                     alt="Residential framing for a new home in Los Angeles"
                     fill
                     className="object-cover"
+
+                    sizes="100vw"
                     priority
                     quality={80}
                 />

@@ -13,10 +13,21 @@ import {
     ArrowRightIcon,
     SearchIcon
 } from "@/components/icons";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
+import ServiceSchema from "@/components/ServiceSchema";
+import FAQSchema from "@/components/FAQSchema";
 
 export const metadata: Metadata = {
     title: "Exterior Painting in Los Angeles, CA | Los Angeles Drywall & Framing",
     description: "Professional exterior painting services in Los Angeles, CA. Surface preparation, priming, and premium paint application for homes and commercial buildings. Licensed contractor, CA #1141917. Call (310) 730-9832.",
+    openGraph: {
+        images: [{
+            url: "/images/services/exterior-painting/hero.jpg",
+            width: 1200,
+            height: 630,
+            alt: "Exterior Painting in Los Angeles",
+        }],
+    },
 };
 
 const processSteps = [
@@ -68,6 +79,18 @@ const faqs = [
 export default function ExteriorPaintingPage() {
     return (
         <main className="min-h-screen bg-white selection:bg-[var(--color-primary)] selection:text-white pb-20 md:pb-0">
+            <BreadcrumbSchema items={[
+                { name: "Home", href: "/" },
+                { name: "Services", href: "/services" },
+                { name: "Exterior Painting", href: "/services/exterior-painting" },
+            ]} />
+            <ServiceSchema
+                name="Exterior Painting in Los Angeles, CA"
+                description="Professional exterior painting services in Los Angeles, CA. Surface preparation, priming, and premium paint application for homes and commercial buildings."
+                url="/services/exterior-painting"
+                image="/images/services/exterior-painting/hero.jpg"
+            />
+            <FAQSchema faqs={faqs} />
             <Header />
 
             {/* HERO */}
@@ -77,6 +100,8 @@ export default function ExteriorPaintingPage() {
                     alt="Professional exterior painting project in Los Angeles by Los Angeles Drywall and Framing"
                     fill
                     className="object-cover object-center"
+
+                    sizes="100vw"
                     priority
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-[#020617]/95 via-[#020617]/80 to-[#020617]/30"></div>

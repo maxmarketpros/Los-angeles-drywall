@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import { Metadata } from 'next';
 import Footer from "@/components/Footer";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import ContactCTA from "@/components/ContactCTA";
 import Image from "next/image";
 import {
@@ -44,6 +45,10 @@ const pillarsOfExecution = [
 export default function AboutPage() {
     return (
         <main className="min-h-screen bg-white selection:bg-[var(--color-primary)] selection:text-white pb-20 md:pb-0">
+            <BreadcrumbSchema items={[
+                { name: "Home", href: "/" },
+                { name: "About", href: "/about" },
+            ]} />
             <Header />
 
             {/* 1. HERO SECTION */}
@@ -53,6 +58,8 @@ export default function AboutPage() {
                     alt="Los Angeles Drywall and Framing crew completing a large-scale drywall installation project"
                     fill
                     className="object-cover object-center"
+
+                    sizes="100vw"
                     priority
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-[#020617]/95 via-[#020617]/80 to-[#020617]/30"></div>

@@ -55,6 +55,9 @@ export const metadata: Metadata = {
       "Licensed and insured drywall and framing services in Los Angeles, CA. Expert installation, repair, finishing, texturing, framing, stucco, and exterior painting. Free estimates available.",
     images: ["/images/logo.png"],
   },
+  alternates: {
+    canonical: "/",
+  },
   icons: {
     icon: "/images/favicon.png",
     apple: "/images/logo.png",
@@ -137,6 +140,8 @@ export default function RootLayout({
     <html lang="en" className={`${outfit.variable} ${inter.variable}`}>
       <head>
         <link rel="dns-prefetch" href="https://www.google.com" />
+        <link rel="dns-prefetch" href="https://api.leadconnectorhq.com" />
+        <link rel="preconnect" href="https://api.leadconnectorhq.com" crossOrigin="anonymous" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdData) }}

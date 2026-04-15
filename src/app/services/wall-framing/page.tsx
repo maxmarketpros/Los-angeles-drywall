@@ -13,11 +13,22 @@ import {
     ClipboardIcon,
     HardHatIcon,
 } from "@/components/icons";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
+import ServiceSchema from "@/components/ServiceSchema";
+import FAQSchema from "@/components/FAQSchema";
 
 export const metadata: Metadata = {
     title: "Wall Framing in Los Angeles, CA | Los Angeles Drywall & Framing",
     description:
         "Professional wall framing in Los Angeles, CA. Load-bearing walls, partition walls, and stud layout built to California seismic codes. Licensed contractor #1141917. Call (310) 730-9832.",
+    openGraph: {
+        images: [{
+            url: "/images/services/wall-framing/hero.jpg",
+            width: 1200,
+            height: 630,
+            alt: "Wall Framing in Los Angeles",
+        }],
+    },
 };
 
 const processSteps = [
@@ -74,6 +85,18 @@ const faqs = [
 export default function WallFramingPage() {
     return (
         <main className="min-h-screen bg-white selection:bg-[var(--color-primary)] selection:text-white pb-20 md:pb-0">
+            <BreadcrumbSchema items={[
+                { name: "Home", href: "/" },
+                { name: "Services", href: "/services" },
+                { name: "Wall Framing", href: "/services/wall-framing" },
+            ]} />
+            <ServiceSchema
+                name="Wall Framing in Los Angeles, CA"
+                description="Professional wall framing in Los Angeles, CA. Load-bearing walls, partition walls, and stud layout built to California seismic codes."
+                url="/services/wall-framing"
+                image="/images/services/wall-framing/hero.jpg"
+            />
+            <FAQSchema faqs={faqs} />
             <Header />
 
             {/* HERO SECTION */}
@@ -83,6 +106,8 @@ export default function WallFramingPage() {
                     alt="Professional wall framing in Los Angeles"
                     fill
                     className="object-cover"
+
+                    sizes="100vw"
                     priority
                     quality={80}
                 />

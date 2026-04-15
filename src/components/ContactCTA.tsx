@@ -16,8 +16,8 @@ export default function ContactCTA() {
             }}>
             </div>
 
-            <div className="page-container px-0 sm:px-6 relative z-10">
-                <div className="bg-white border-y sm:border border-[var(--color-neutral-200)] p-6 sm:p-8 md:p-12 lg:p-16 shadow-xl relative">
+            <div className="page-container relative z-10">
+                <div className="bg-white border border-[var(--color-neutral-200)] p-5 sm:p-8 md:p-12 lg:p-16 shadow-xl relative overflow-hidden">
 
                     <div className="grid lg:grid-cols-12 gap-10 lg:gap-20">
                         {/* Info Column */}
@@ -70,7 +70,7 @@ export default function ContactCTA() {
                                     </div>
                                     <div className="flex flex-col">
                                         <span className="text-[10px] uppercase font-bold text-[var(--color-neutral-500)] tracking-wider mb-0.5">Email Us</span>
-                                        <a href="mailto:sales@losangelesdrywallandframing.com" className="text-sm text-[var(--color-neutral-900)] font-bold hover:text-[var(--color-primary)] transition-colors">
+                                        <a href="mailto:sales@losangelesdrywallandframing.com" className="text-sm text-[var(--color-neutral-900)] font-bold hover:text-[var(--color-primary)] transition-colors break-all">
                                             sales@losangelesdrywallandframing.com
                                         </a>
                                     </div>
@@ -89,6 +89,7 @@ export default function ContactCTA() {
                                     style={{ width: "100%", height: "669px", border: "none", borderRadius: "3px" }}
                                     id="inline-sereKGCghy5WXVMS60mT"
                                     title="WebSite Form Template"
+                                    loading="lazy"
                                 ></iframe>
                             </div>
                         </div>

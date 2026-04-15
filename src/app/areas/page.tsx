@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import ContactCTA from "@/components/ContactCTA";
 
 export const metadata = {
@@ -46,6 +47,10 @@ const serviceAreas = [
 export default function AreasPage() {
     return (
         <main className="min-h-screen bg-white selection:bg-[var(--color-primary)] selection:text-white pb-0">
+            <BreadcrumbSchema items={[
+                { name: "Home", href: "/" },
+                { name: "Areas We Serve", href: "/areas" },
+            ]} />
             <Header />
 
             {/* Dark Mode Hero */}

@@ -15,10 +15,21 @@ import {
     BuildingIcon,
     FileCheckIcon,
 } from "@/components/icons";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
+import ServiceSchema from "@/components/ServiceSchema";
+import FAQSchema from "@/components/FAQSchema";
 
 export const metadata: Metadata = {
     title: "Drywall Finishing in Los Angeles, CA | Los Angeles Drywall & Framing",
     description: "Professional drywall finishing in Los Angeles, CA including taping, mudding, sanding, and finish levels 1 through 5. Licensed contractor delivering paint-ready surfaces. Call (310) 730-9832.",
+    openGraph: {
+        images: [{
+            url: "/images/services/drywall-finishing/hero.jpg",
+            width: 1200,
+            height: 630,
+            alt: "Drywall Finishing in Los Angeles",
+        }],
+    },
 };
 
 const processSteps = [
@@ -70,6 +81,18 @@ const faqs = [
 export default function DrywallFinishingPage() {
     return (
         <main className="min-h-screen bg-white selection:bg-[var(--color-primary)] selection:text-white pb-20 md:pb-0">
+            <BreadcrumbSchema items={[
+                { name: "Home", href: "/" },
+                { name: "Services", href: "/services" },
+                { name: "Drywall Finishing", href: "/services/drywall-finishing" },
+            ]} />
+            <ServiceSchema
+                name="Drywall Finishing in Los Angeles, CA"
+                description="Professional drywall finishing in Los Angeles, CA including taping, mudding, sanding, and finish levels 1 through 5. Licensed contractor delivering paint-ready surfaces."
+                url="/services/drywall-finishing"
+                image="/images/services/drywall-finishing/hero.jpg"
+            />
+            <FAQSchema faqs={faqs} />
             <Header />
 
             {/* 1. HERO SECTION */}
@@ -79,6 +102,8 @@ export default function DrywallFinishingPage() {
                     alt="Professional drywall finishing and taping in a Los Angeles building"
                     fill
                     className="object-cover object-center"
+
+                    sizes="100vw"
                     priority
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-[#020617]/95 via-[#020617]/80 to-[#020617]/30"></div>

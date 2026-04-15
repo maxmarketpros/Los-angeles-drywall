@@ -13,10 +13,21 @@ import {
     ArrowRightIcon,
     HomeIcon
 } from "@/components/icons";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
+import ServiceSchema from "@/components/ServiceSchema";
+import FAQSchema from "@/components/FAQSchema";
 
 export const metadata: Metadata = {
     title: "Stucco in Los Angeles, CA | Los Angeles Drywall & Framing",
     description: "Expert stucco application and repair services in Los Angeles, CA. Traditional and synthetic stucco for residential and commercial properties. Licensed contractor, CA #1141917. Call (310) 730-9832.",
+    openGraph: {
+        images: [{
+            url: "/images/services/stucco/hero.jpg",
+            width: 1200,
+            height: 630,
+            alt: "Stucco in Los Angeles",
+        }],
+    },
 };
 
 const processSteps = [
@@ -68,6 +79,18 @@ const faqs = [
 export default function StuccoPage() {
     return (
         <main className="min-h-screen bg-white selection:bg-[var(--color-primary)] selection:text-white pb-20 md:pb-0">
+            <BreadcrumbSchema items={[
+                { name: "Home", href: "/" },
+                { name: "Services", href: "/services" },
+                { name: "Stucco", href: "/services/stucco" },
+            ]} />
+            <ServiceSchema
+                name="Stucco in Los Angeles, CA"
+                description="Expert stucco application and repair services in Los Angeles, CA. Traditional and synthetic stucco for residential and commercial properties."
+                url="/services/stucco"
+                image="/images/services/stucco/hero.jpg"
+            />
+            <FAQSchema faqs={faqs} />
             <Header />
 
             {/* HERO */}
@@ -77,6 +100,8 @@ export default function StuccoPage() {
                     alt="Professional stucco application on a Los Angeles property by Los Angeles Drywall and Framing"
                     fill
                     className="object-cover object-center"
+
+                    sizes="100vw"
                     priority
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-[#020617]/95 via-[#020617]/80 to-[#020617]/30"></div>

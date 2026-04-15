@@ -102,18 +102,8 @@ export default function Header() {
                                 alt="Los Angeles Drywall & Framing logo"
                                 fill
                                 sizes="(max-width: 768px) 150px, (max-width: 1024px) 200px, 220px"
-                                className={`object-contain object-left transition-opacity duration-300 ${isScrolled || isMobileMenuOpen ? "opacity-100" : "opacity-0"
-                                    }`}
-                                priority
-                            />
-                            <Image
-                                src="/images/logo.png"
-                                alt="Los Angeles Drywall & Framing logo"
-                                fill
-                                sizes="(max-width: 768px) 150px, (max-width: 1024px) 200px, 220px"
-                                className={`object-contain object-left transition-opacity duration-300 ${isScrolled || isMobileMenuOpen ? "opacity-0" : "opacity-100"
-                                    }`}
-                                style={{ filter: 'brightness(0) invert(1)' }}
+                                className="object-contain object-left transition-[filter] duration-300"
+                                style={{ filter: isScrolled || isMobileMenuOpen ? 'none' : 'brightness(0) invert(1)' }}
                                 priority
                             />
                         </div>
@@ -138,8 +128,8 @@ export default function Header() {
                                 </a>
 
                                 {link.megaMenu && (
-                                    <div className="absolute top-full -left-20 pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform translate-y-2 group-hover:translate-y-0 z-50">
-                                        <div className="bg-white/95 backdrop-blur-xl rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.1)] border border-[var(--color-neutral-100)] overflow-hidden w-[600px] p-8 text-left grid grid-cols-3 gap-8">
+                                    <div className={`absolute top-full pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform translate-y-2 group-hover:translate-y-0 z-50 ${link.megaMenu.length === 1 ? '-left-4' : '-left-20'}`}>
+                                        <div className={`bg-white/95 backdrop-blur-xl rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.1)] border border-[var(--color-neutral-100)] overflow-hidden p-8 text-left grid gap-8 ${link.megaMenu.length === 1 ? 'grid-cols-1 w-[220px]' : link.megaMenu.length === 2 ? 'grid-cols-2 w-[420px]' : 'grid-cols-3 w-[600px]'}`}>
                                             {link.megaMenu.map(category => (
                                                 <div key={category.title}>
                                                     <h4 className="text-[10px] font-bold tracking-[0.2em] text-[var(--color-primary)] uppercase mb-4 pb-2 border-b border-[var(--color-neutral-100)]">

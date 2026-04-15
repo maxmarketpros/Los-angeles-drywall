@@ -15,10 +15,21 @@ import {
     HomeIcon,
     BuildingIcon,
 } from "@/components/icons";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
+import ServiceSchema from "@/components/ServiceSchema";
+import FAQSchema from "@/components/FAQSchema";
 
 export const metadata: Metadata = {
     title: "Drywall Installation in Los Angeles, CA | Los Angeles Drywall & Framing",
     description: "Professional drywall installation in Los Angeles, CA for residential and commercial projects. Expert board hanging, code-compliant builds, and seamless results. Call (310) 730-9832 for a free estimate.",
+    openGraph: {
+        images: [{
+            url: "/images/services/drywall-installation/hero.jpg",
+            width: 1200,
+            height: 630,
+            alt: "Drywall Installation in Los Angeles",
+        }],
+    },
 };
 
 const processSteps = [
@@ -70,6 +81,18 @@ const faqs = [
 export default function DrywallInstallationPage() {
     return (
         <main className="min-h-screen bg-white selection:bg-[var(--color-primary)] selection:text-white pb-20 md:pb-0">
+            <BreadcrumbSchema items={[
+                { name: "Home", href: "/" },
+                { name: "Services", href: "/services" },
+                { name: "Drywall Installation", href: "/services/drywall-installation" },
+            ]} />
+            <ServiceSchema
+                name="Drywall Installation in Los Angeles, CA"
+                description="Professional drywall installation in Los Angeles, CA for residential and commercial projects. Expert board hanging, code-compliant builds, and seamless results."
+                url="/services/drywall-installation"
+                image="/images/services/drywall-installation/hero.jpg"
+            />
+            <FAQSchema faqs={faqs} />
             <Header />
 
             {/* 1. HERO SECTION */}
@@ -79,6 +102,8 @@ export default function DrywallInstallationPage() {
                     alt="Professional drywall installation in a Los Angeles residential project"
                     fill
                     className="object-cover object-center"
+
+                    sizes="100vw"
                     priority
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-[#020617]/95 via-[#020617]/80 to-[#020617]/30"></div>

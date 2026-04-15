@@ -15,10 +15,21 @@ import {
     DollarIcon,
     UsersIcon,
 } from "@/components/icons";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
+import ServiceSchema from "@/components/ServiceSchema";
+import FAQSchema from "@/components/FAQSchema";
 
 export const metadata: Metadata = {
     title: "Drywall Patching in Los Angeles, CA | Los Angeles Drywall & Framing",
     description: "Quick drywall patching in Los Angeles, CA for small holes, nail pops, and minor wall damage. Fast turnaround with seamless blending. Call (310) 730-9832 for a free estimate.",
+    openGraph: {
+        images: [{
+            url: "/images/services/drywall-patching/hero.jpg",
+            width: 1200,
+            height: 630,
+            alt: "Drywall Patching in Los Angeles",
+        }],
+    },
 };
 
 const processSteps = [
@@ -70,6 +81,18 @@ const faqs = [
 export default function DrywallPatchingPage() {
     return (
         <main className="min-h-screen bg-white selection:bg-[var(--color-primary)] selection:text-white pb-20 md:pb-0">
+            <BreadcrumbSchema items={[
+                { name: "Home", href: "/" },
+                { name: "Services", href: "/services" },
+                { name: "Drywall Patching", href: "/services/drywall-patching" },
+            ]} />
+            <ServiceSchema
+                name="Drywall Patching in Los Angeles, CA"
+                description="Quick drywall patching in Los Angeles, CA for small holes, nail pops, and minor wall damage. Fast turnaround with seamless blending."
+                url="/services/drywall-patching"
+                image="/images/services/drywall-patching/hero.jpg"
+            />
+            <FAQSchema faqs={faqs} />
             <Header />
 
             {/* 1. HERO SECTION */}
@@ -79,6 +102,8 @@ export default function DrywallPatchingPage() {
                     alt="Drywall patching in progress at a Los Angeles property"
                     fill
                     className="object-cover object-center"
+
+                    sizes="100vw"
                     priority
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-[#020617]/95 via-[#020617]/80 to-[#020617]/30"></div>

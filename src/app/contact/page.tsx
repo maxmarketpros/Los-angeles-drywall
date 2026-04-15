@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import { MapPinIcon, ClockIcon, PhoneIcon, EmailIcon } from "@/components/icons";
 
 export const metadata = {
@@ -10,6 +11,10 @@ export const metadata = {
 export default function ContactPage() {
     return (
         <main className="min-h-screen bg-white selection:bg-[var(--color-primary)] selection:text-white">
+            <BreadcrumbSchema items={[
+                { name: "Home", href: "/" },
+                { name: "Contact", href: "/contact" },
+            ]} />
             <Header />
 
             {/* Dark Mode Hero */}

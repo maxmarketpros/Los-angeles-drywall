@@ -13,11 +13,22 @@ import {
     LayersIcon,
     ClipboardIcon,
 } from "@/components/icons";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
+import ServiceSchema from "@/components/ServiceSchema";
+import FAQSchema from "@/components/FAQSchema";
 
 export const metadata: Metadata = {
     title: "Rough Carpentry in Los Angeles, CA | Los Angeles Drywall & Framing",
     description:
         "Professional rough carpentry in Los Angeles, CA. Blocking, backing, furring strips, subflooring, and sheathing. Prep work done right before drywall. CA License #1141917. Call (310) 730-9832.",
+    openGraph: {
+        images: [{
+            url: "/images/services/rough-carpentry/hero.jpg",
+            width: 1200,
+            height: 630,
+            alt: "Rough Carpentry in Los Angeles",
+        }],
+    },
 };
 
 const processSteps = [
@@ -74,6 +85,18 @@ const faqs = [
 export default function RoughCarpentryPage() {
     return (
         <main className="min-h-screen bg-white selection:bg-[var(--color-primary)] selection:text-white pb-20 md:pb-0">
+            <BreadcrumbSchema items={[
+                { name: "Home", href: "/" },
+                { name: "Services", href: "/services" },
+                { name: "Rough Carpentry", href: "/services/rough-carpentry" },
+            ]} />
+            <ServiceSchema
+                name="Rough Carpentry in Los Angeles, CA"
+                description="Professional rough carpentry in Los Angeles, CA. Blocking, backing, furring strips, subflooring, and sheathing. Prep work done right before drywall."
+                url="/services/rough-carpentry"
+                image="/images/services/rough-carpentry/hero.jpg"
+            />
+            <FAQSchema faqs={faqs} />
             <Header />
 
             {/* HERO SECTION */}
@@ -83,6 +106,8 @@ export default function RoughCarpentryPage() {
                     alt="Rough carpentry blocking and backing installation in Los Angeles"
                     fill
                     className="object-cover"
+
+                    sizes="100vw"
                     priority
                     quality={80}
                 />

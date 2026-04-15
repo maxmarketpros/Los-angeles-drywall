@@ -33,11 +33,11 @@ export default function QualityStandard() {
                             </div>
 
                             {/* Decorative subtle circles/shapes to frame the transparent PNG */}
-                            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full aspect-square border-2 border-dashed border-[var(--color-primary)] rounded-full opacity-10 animate-[spin_120s_linear_infinite]"></div>
+                            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full aspect-square border-2 border-dashed border-[var(--color-primary)] rounded-full opacity-10"></div>
                             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[70%] aspect-square border-2 border-[var(--color-primary)] rounded-full opacity-[0.05]"></div>
 
                             {/* Soft Glow Behind Image */}
-                            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-3/4 h-3/4 bg-white blur-[60px] rounded-full pointer-events-none z-0"></div>
+                            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-3/4 h-3/4 rounded-full pointer-events-none z-0" style={{ background: 'radial-gradient(circle, rgba(255,255,255,0.9) 0%, transparent 70%)' }}></div>
 
                             {/* Image - The Transparent PNG */}
                             <div className="relative w-full aspect-[4/3] max-w-[800px] mx-auto z-10 transition-transform duration-700 hover:scale-[1.03]">

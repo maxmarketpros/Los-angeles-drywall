@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import ContactCTA from "@/components/ContactCTA";
 import ServicesGrid from "@/components/ServicesGrid";
 
@@ -11,6 +12,10 @@ export const metadata = {
 export default function ServicesPage() {
     return (
         <main className="min-h-screen bg-white selection:bg-[var(--color-primary)] selection:text-white pb-0">
+            <BreadcrumbSchema items={[
+                { name: "Home", href: "/" },
+                { name: "Services", href: "/services" },
+            ]} />
             <Header />
 
             {/* Dark Mode Hero */}

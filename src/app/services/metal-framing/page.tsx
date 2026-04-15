@@ -13,10 +13,21 @@ import {
     HammerIcon,
     LayersIcon
 } from "@/components/icons";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
+import ServiceSchema from "@/components/ServiceSchema";
+import FAQSchema from "@/components/FAQSchema";
 
 export const metadata: Metadata = {
     title: "Metal Framing in Los Angeles, CA | Los Angeles Drywall & Framing",
     description: "Professional metal framing and steel stud services in Los Angeles, CA. Non-combustible framing for commercial and residential projects, fire-rated assemblies, and code-compliant installations. CA #1141917. Call (310) 730-9832.",
+    openGraph: {
+        images: [{
+            url: "/images/services/metal-framing/hero.jpg",
+            width: 1200,
+            height: 630,
+            alt: "Metal Framing in Los Angeles",
+        }],
+    },
 };
 
 const processSteps = [
@@ -68,6 +79,18 @@ const faqs = [
 export default function MetalFramingPage() {
     return (
         <main className="min-h-screen bg-white selection:bg-[var(--color-primary)] selection:text-white pb-20 md:pb-0">
+            <BreadcrumbSchema items={[
+                { name: "Home", href: "/" },
+                { name: "Services", href: "/services" },
+                { name: "Metal Framing", href: "/services/metal-framing" },
+            ]} />
+            <ServiceSchema
+                name="Metal Framing in Los Angeles, CA"
+                description="Professional metal framing and steel stud services in Los Angeles, CA. Non-combustible framing for commercial and residential projects, fire-rated assemblies, and code-compliant installations."
+                url="/services/metal-framing"
+                image="/images/services/metal-framing/hero.jpg"
+            />
+            <FAQSchema faqs={faqs} />
             <Header />
 
             {/* HERO */}
@@ -77,6 +100,8 @@ export default function MetalFramingPage() {
                     alt="Steel stud metal framing installation on a commercial project in Los Angeles"
                     fill
                     className="object-cover object-center"
+
+                    sizes="100vw"
                     priority
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-[#020617]/95 via-[#020617]/80 to-[#020617]/30"></div>
